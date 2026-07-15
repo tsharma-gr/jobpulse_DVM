@@ -258,6 +258,7 @@ async def search_endpoint(request: SearchRequest):
             await asyncio.sleep(0.3)
             
             # Send final results
+            logger.info(f"Sending completed step with {len(jobs)} jobs to the frontend.")
             yield json.dumps({
                 "step": "completed",
                 "message": "Search completed.",
