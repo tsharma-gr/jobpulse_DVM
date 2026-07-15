@@ -22,7 +22,7 @@ async def scrape_linkedin(job_title: str, industry: str, location: str, radius: 
     logger.info(f"Scraping LinkedIn for {job_title} in {location} (radius {radius})")
     
     # 1. Try DuckDuckGo URL discovery
-    urls = discover_job_urls("linkedin.com/jobs/view", job_title, location, max_results=20)
+    urls = discover_job_urls("uk.linkedin.com/jobs/view", job_title, location, max_results=20)
     
     if urls:
         logger.info(f"Discovered {len(urls)} LinkedIn URLs. Scraping pages...")
@@ -106,7 +106,7 @@ async def scrape_linkedin(job_title: str, industry: str, location: str, radius: 
         elif radius <= 50: dist = 50
         else: dist = 100
 
-        url = f"https://www.linkedin.com/jobs/search?keywords={query}&location={loc_query}&distance={dist}&f_TPR=r7776000"
+        url = f"https://uk.linkedin.com/jobs/search?keywords={query}&location={loc_query}&distance={dist}&f_TPR=r7776000"
         
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         
