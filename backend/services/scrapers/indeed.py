@@ -22,7 +22,7 @@ async def scrape_indeed(job_title: str, industry: str, location: str, radius: in
     logger.info(f"Scraping Indeed UK for {job_title} in {location} (radius {radius})")
     
     # 1. Try DuckDuckGo URL discovery
-    urls = discover_job_urls("uk.indeed.com/viewjob", job_title, location, max_results=8)
+    urls = discover_job_urls("uk.indeed.com/viewjob", job_title, location, max_results=20)
     
     if urls:
         logger.info(f"Discovered {len(urls)} Indeed UK URLs. Scraping pages...")

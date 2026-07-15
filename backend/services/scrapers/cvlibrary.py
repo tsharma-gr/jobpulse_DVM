@@ -22,7 +22,7 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
     logger.info(f"Scraping CV-Library for {job_title} in {location} (radius {radius})")
     
     # 1. Try DuckDuckGo URL discovery
-    urls = discover_job_urls("cv-library.co.uk/job", job_title, location, max_results=8)
+    urls = discover_job_urls("cv-library.co.uk/job", job_title, location, max_results=20)
     
     if urls:
         logger.info(f"Discovered {len(urls)} CV-Library URLs. Scraping pages...")
@@ -48,7 +48,7 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
                     location_el = await page.query_selector(".job__location, .job__meta-location")
                     time_el = await page.query_selector(".job__posted, .job__meta-posted")
                     type_el = await page.query_selector(".job__type, .job__meta-type")
-                    desc_el = await page.query_selector("[itemprop='description'], .job__description, .job-description")
+                    desc_el = await page.query_selector("[itemprop='description'], .job__description, .job-description, [class*='jobDescription'], [class*='job-description']")
                     
                     title = (await title_el.inner_text()).strip() if title_el else ""
                     company = (await company_el.inner_text()).strip() if company_el else "Unknown"
@@ -177,7 +177,7 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
                     logger.warning(f"Discarding fallback CV-Library blocked/invalid page: {data['link']} (Title: {title})")
                     continue
                 
-                desc_el = await page.query_selector("[itemprop='description'], .job__description, .job-description")
+                desc_el = await page.query_selector("[itemprop='description'], .job__description, .job-description, [class*='jobDescription'], [class*='job-description']")
                 description = (await desc_el.inner_text()).strip() if desc_el else ""
                 
                 jobs.append(JobItem(
