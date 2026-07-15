@@ -27,6 +27,7 @@ interface JobItem {
 
 export default function BulkSearch() {
   const [file, setFile] = useState<File | null>(null);
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
   const [dragActive, setDragActive] = useState(false);
   const [loading, setLoading] = useState(false);
   
@@ -91,8 +92,6 @@ export default function BulkSearch() {
 
     const formData = new FormData();
     formData.append("file", file);
-
-    const apiUrl = "http://localhost:8000";
 
     try {
       const response = await fetch(`${apiUrl}/api/bulk-search`, {
