@@ -552,9 +552,17 @@ export default function NewSearch() {
         <div className="bg-[#111827] border border-[#1f2937] rounded-2xl p-12 text-center shadow-xl">
           <HelpCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
           <h3 className="text-lg font-bold text-white mb-2">No matching vacancies were found.</h3>
-          <p className="text-sm text-gray-400 max-w-md mx-auto">
+          <p className="text-sm text-gray-400 max-w-md mx-auto mb-4">
             Try adjusting your search criteria, widening the radius, or double-checking for spelling variations.
           </p>
+          <div className="text-left text-xs bg-black/50 p-4 rounded border border-red-500 text-red-300 font-mono">
+            <strong>DEBUG INFO:</strong><br />
+            progressStep: {progressStep}<br />
+            loading: {loading ? "true" : "false"}<br />
+            jobs.length: {jobs.length}<br />
+            filteredJobs.length: {filteredJobs.length}<br />
+            If you see this, the React state has literally 0 jobs, but the backend log said it sent some! 
+          </div>
         </div>
       )}
     </div>
