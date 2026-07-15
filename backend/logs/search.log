@@ -473,3 +473,4 @@ BrokenPipeError: [WinError 232] The pipe is being closed
 2026-07-15 12:38:56,167 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
 2026-07-15 12:39:09,574 - utils.llm - INFO - Generating LLM match reasons for 4 jobs via DeepSeek...
 2026-07-15 12:39:09,927 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 12:39:11,797 - utils.llm - INFO - Successfully mapped LLM generated match reasons and percentages.

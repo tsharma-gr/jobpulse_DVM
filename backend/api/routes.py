@@ -146,9 +146,22 @@ async def run_search_pipeline(job_title: str, industry: str, location: str, radi
         ds = date_str.lower()
         if "year" in ds or "yr" in ds:
             return True
-        match = re.search(r'(\d+)\s*month', ds)
-        if match and int(match.group(1)) > 3:
+            
+        # Catch months > 3
+        match_months = re.search(r'(\d+)\s*month', ds)
+        if match_months and int(match_months.group(1)) > 3:
             return True
+            
+        # Catch weeks > 12
+        match_weeks = re.search(r'(\d+)\s*week', ds)
+        if match_weeks and int(match_weeks.group(1)) > 12:
+            return True
+            
+        # Catch days > 90
+        match_days = re.search(r'(\d+)\s*day', ds)
+        if match_days and int(match_days.group(1)) > 90:
+            return True
+            
         return False
         
     for job in title_matched_jobs:
@@ -161,6 +174,12 @@ async def run_search_pipeline(job_title: str, industry: str, location: str, radi
         title_lower = job.job_title.lower()
         type_lower = job.job_type.lower() if job.job_type else ""
         
+        # Check if the page was actually blocked by Cloudflare or a Login wall
+        blocked_keywords = ["blocked", "additional verification required", "join linkedin", "security measure", "captcha"]
+        if any(b in title_lower for b in blocked_keywords) or job.company_name.lower() == "unknown":
+            logger.info(f"Filtered out blocked/failed scrape job: {job.job_title}")
+            continue
+            
         is_contract = any(kw in title_lower or kw in type_lower for kw in non_permanent_keywords)
         if is_contract:
             logger.info(f"Filtered out non-permanent job: {job.job_title} ({job.job_type})")
