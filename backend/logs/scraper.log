@@ -1,0 +1,337 @@
+2026-07-15 10:20:43,790 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Estimator in London (radius 25)
+2026-07-15 10:20:49,596 - services.scrapers.linkedin - INFO - Falling back to direct search page crawling for LinkedIn...
+2026-07-15 10:20:49,607 - services.scrapers.indeed - INFO - Scraping Indeed UK for Estimator in London (radius 25)
+2026-07-15 10:20:54,599 - services.scrapers.indeed - INFO - Falling back to direct search page crawling for Indeed UK...
+2026-07-15 10:20:54,610 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Estimator in London (radius 25)
+2026-07-15 10:20:59,542 - services.scrapers.cvlibrary - INFO - Falling back to direct search page crawling for CV-Library...
+2026-07-15 10:21:10,115 - services.scrapers.indeed - WARNING - Indeed card selector (.job_seen_beacon) not found in fallback search page crawl.
+2026-07-15 10:21:21,504 - services.scrapers.cvlibrary - WARNING - CV-Library job cards not found. Fallback search page crawl yielded 0 results.
+2026-07-15 10:22:51,295 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Estimator in London (radius 25)
+2026-07-15 10:22:56,984 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 10:22:56,995 - services.scrapers.indeed - INFO - Scraping Indeed UK for Estimator in London (radius 25)
+2026-07-15 10:23:04,650 - services.scrapers.indeed - INFO - Discovered 6 Indeed UK URLs. Scraping pages...
+2026-07-15 10:23:04,661 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Estimator in London (radius 25)
+2026-07-15 10:23:11,593 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 10:23:11,693 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=838e877a401352f9
+2026-07-15 10:23:11,697 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/senior-estimator-at-worley-3847138181
+2026-07-15 10:23:11,701 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352722/estimator
+2026-07-15 10:23:12,105 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d31d741fc27be93
+2026-07-15 10:23:12,994 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225321839/estimator
+2026-07-15 10:23:13,456 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=bf8220c1d4db816d
+2026-07-15 10:23:14,063 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/senior-groundworks-estimator-at-novax-recruitment-2755033163
+2026-07-15 10:23:14,253 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=18461a01ecc7dab9
+2026-07-15 10:23:14,675 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=cce773f388a8eeab
+2026-07-15 10:23:14,903 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=983746061843ad11
+2026-07-15 10:23:15,301 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224787201/Estimator
+2026-07-15 10:23:15,839 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224346256/Estimator
+2026-07-15 10:23:15,987 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225041257/Estimator
+2026-07-15 10:23:16,111 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/commercial-drywall-estimator-at-collins-construction-and-company-llc-3486180989
+2026-07-15 10:23:16,132 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/222510236/Estimator-Construction
+2026-07-15 10:23:16,272 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/222481600/Estimator
+2026-07-15 10:23:17,748 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/commercial-drywall-estimator-at-collins-construction-and-company-llc-3486180989: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:23:17,748 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/estimator-preconstruction-manager-hybrid!-at-london-approach-4271679951
+2026-07-15 10:23:18,664 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/estimator-preconstruction-manager-hybrid!-at-london-approach-4271679951: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:23:18,665 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/senior-mechanical-estimator-at-london-approach-4261140494
+2026-07-15 10:23:19,487 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/senior-mechanical-estimator-at-london-approach-4261140494: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:23:19,487 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/estimator-at-london-approach-4217036104
+2026-07-15 10:23:20,432 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/estimator-at-london-approach-4217036104: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:23:20,433 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/estimator-at-michael-page-4037959064
+2026-07-15 10:23:21,355 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/estimator-at-michael-page-4037959064: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:23:21,355 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-kier-group-4316485888
+2026-07-15 10:23:22,239 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://uk.linkedin.com/jobs/view/estimator-at-kier-group-4316485888: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:26:16,051 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Estimator in London (radius 25)
+2026-07-15 10:26:23,941 - services.scrapers.linkedin - INFO - Discovered 6 LinkedIn URLs. Scraping pages...
+2026-07-15 10:26:23,964 - services.scrapers.indeed - INFO - Scraping Indeed UK for Estimator in London (radius 25)
+2026-07-15 10:26:32,902 - services.scrapers.indeed - INFO - Discovered 6 Indeed UK URLs. Scraping pages...
+2026-07-15 10:26:32,917 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Estimator in London (radius 25)
+2026-07-15 10:26:41,073 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 10:26:41,246 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/senior-estimator-at-hochtief-uk-construction-ltd-4310350742
+2026-07-15 10:26:41,267 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=838e877a401352f9
+2026-07-15 10:26:41,283 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352722/estimator
+2026-07-15 10:26:41,744 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d31d741fc27be93
+2026-07-15 10:26:43,075 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=bf8220c1d4db816d
+2026-07-15 10:26:43,693 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225321839/estimator
+2026-07-15 10:26:44,113 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224787201/Estimator
+2026-07-15 10:26:44,203 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=18461a01ecc7dab9
+2026-07-15 10:26:44,270 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-woodford-4299414119
+2026-07-15 10:26:44,449 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224346256/Estimator
+2026-07-15 10:26:44,665 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=cce773f388a8eeab
+2026-07-15 10:26:44,729 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225041257/Estimator
+2026-07-15 10:26:44,933 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=983746061843ad11
+2026-07-15 10:26:45,014 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/222510236/Estimator-Construction
+2026-07-15 10:26:45,489 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/222481600/Estimator
+2026-07-15 10:26:46,965 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/estimator-preconstruction-manager-hybrid!-at-london-approach-4286321130
+2026-07-15 10:26:48,771 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/estimator-preconstruction-manager-hybrid!-at-london-approach-4286321130: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:26:48,772 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/construction-estimator-4294379658
+2026-07-15 10:26:49,570 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/construction-estimator-4294379658: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:26:49,571 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/construction-estimator-4304185762
+2026-07-15 10:26:50,542 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/construction-estimator-4304185762: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:26:50,543 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/mep-estimator-at-wohlsen-construction-company-4288025601
+2026-07-15 10:26:52,003 - services.scrapers.linkedin - ERROR - Error scraping individual LinkedIn page https://www.linkedin.com/jobs/view/mep-estimator-at-wohlsen-construction-company-4288025601: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2026-07-15 10:30:27,238 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Estimator in London (radius 25)
+2026-07-15 10:30:34,547 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 10:30:34,553 - services.scrapers.indeed - INFO - Scraping Indeed UK for Estimator in London (radius 25)
+2026-07-15 10:30:42,226 - services.scrapers.indeed - INFO - Discovered 6 Indeed UK URLs. Scraping pages...
+2026-07-15 10:30:42,241 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Estimator in London (radius 25)
+2026-07-15 10:30:50,215 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 10:30:50,326 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/4416166462/
+2026-07-15 10:30:50,330 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=838e877a401352f9
+2026-07-15 10:30:50,334 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352722/estimator
+2026-07-15 10:30:50,778 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d31d741fc27be93
+2026-07-15 10:30:51,524 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/4362018683/
+2026-07-15 10:30:51,630 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225321839/estimator
+2026-07-15 10:30:51,916 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=bf8220c1d4db816d
+2026-07-15 10:30:52,903 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224787201/Estimator
+2026-07-15 10:30:52,920 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-the-construction-index-ltd-4440320725
+2026-07-15 10:30:53,161 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224346256/Estimator
+2026-07-15 10:30:53,210 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=983746061843ad11
+2026-07-15 10:30:53,310 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225041257/Estimator
+2026-07-15 10:30:53,453 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/222510236/Estimator-Construction
+2026-07-15 10:30:53,590 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=18461a01ecc7dab9
+2026-07-15 10:30:53,594 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/222481600/Estimator
+2026-07-15 10:30:53,733 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=e2e9c712176ab9b0
+2026-07-15 10:30:54,474 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/4415896103?skipRedirect=true
+2026-07-15 10:30:58,215 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/4414592045/
+2026-07-15 10:30:59,660 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-transport-for-london-4387721003?position=20&pageNum=0
+2026-07-15 10:31:02,635 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/4413959290/
+2026-07-15 10:31:04,306 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/senior-estimator-at-hochtief-uk-construction-ltd-4310350742
+2026-07-15 11:04:25,590 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Bricklayer in London (radius 25)
+2026-07-15 11:04:34,937 - services.scrapers.linkedin - INFO - Discovered 2 LinkedIn URLs. Scraping pages...
+2026-07-15 11:04:34,956 - services.scrapers.indeed - INFO - Scraping Indeed UK for Bricklayer in London (radius 25)
+2026-07-15 11:04:42,892 - services.scrapers.indeed - INFO - Discovered 5 Indeed UK URLs. Scraping pages...
+2026-07-15 11:04:42,908 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Bricklayer in London (radius 25)
+2026-07-15 11:04:50,381 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 11:04:50,555 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/bricklayer-at-mears-group-plc-3156268845
+2026-07-15 11:04:50,574 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=4b556d30e7b2c60d
+2026-07-15 11:04:50,586 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/223964224/bricklayer
+2026-07-15 11:04:51,083 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=232b9bee9bc8c435
+2026-07-15 11:04:52,260 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=9e93553ae2da73ee
+2026-07-15 11:04:52,391 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225338996/bricklayer
+2026-07-15 11:04:52,872 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://au.linkedin.com/jobs/view/bricklayer-gang-wanted-at-ausbuild-150777265
+2026-07-15 11:04:54,088 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/223149204/Bricklayer
+2026-07-15 11:04:54,245 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=b2dba7027fb278f1
+2026-07-15 11:04:54,583 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=5db9c126fb2c9daa
+2026-07-15 11:04:54,959 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/224922081/Bricklayer
+2026-07-15 11:04:55,184 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225340894/bricklayer
+2026-07-15 11:04:55,388 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225276785/bricklayer
+2026-07-15 11:04:55,606 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/223812733/Bricklayer
+2026-07-15 11:04:59,039 - services.scrapers.linkedin - WARNING - LinkedIn page redirected to authwall or blocked: https://au.linkedin.com/jobs/view/bricklayer-gang-wanted-at-ausbuild-150777265
+2026-07-15 11:23:02,081 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:23:09,804 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 11:23:09,815 - services.scrapers.indeed - INFO - Scraping Indeed UK for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:23:18,538 - services.scrapers.indeed - INFO - Discovered 5 Indeed UK URLs. Scraping pages...
+2026-07-15 11:23:18,543 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:23:26,336 - services.scrapers.cvlibrary - INFO - Falling back to direct search page crawling for CV-Library...
+2026-07-15 11:23:26,349 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://ie.linkedin.com/jobs/view/quantity-surveyor-4342759118
+2026-07-15 11:23:26,462 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=e8d54f52558a58c9&from=serp&vjs=3
+2026-07-15 11:23:26,980 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=9dc91afe202378bd
+2026-07-15 11:23:28,312 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d427560d9954a10
+2026-07-15 11:23:28,372 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/cost-controller-at-jbt-marel-4351501334?position=51&pageNum=0
+2026-07-15 11:23:29,500 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=f7769a0ed0a9cbdb
+2026-07-15 11:23:29,828 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=ab67b137f1f7ad65
+2026-07-15 11:23:32,185 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/finance-business-partner-at-greencore-4399530096?position=41&pageNum=0
+2026-07-15 11:23:34,943 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://om.linkedin.com/jobs/view/quantity-surveyor-cost-estimator-at-meranti-green-steel-4425598699
+2026-07-15 11:23:37,371 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://qa.linkedin.com/jobs/view/senior-quantity-surveyor-roads-o-m-at-egis-4308924507
+2026-07-15 11:23:40,838 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-anamore-4306473119
+2026-07-15 11:23:43,478 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/quantity-surveyor-at-ezo-ev-charging-4413861746
+2026-07-15 11:23:45,778 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/mep-quantity-surveyor-at-mitie-4437984543
+2026-07-15 11:23:47,061 - services.scrapers.cvlibrary - WARNING - CV-Library job cards not found. Fallback search page crawl yielded 0 results.
+2026-07-15 11:33:14,851 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:33:23,161 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 11:33:23,175 - services.scrapers.indeed - INFO - Scraping Indeed UK for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:33:31,172 - services.scrapers.indeed - INFO - Discovered 5 Indeed UK URLs. Scraping pages...
+2026-07-15 11:33:31,195 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:33:38,602 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 11:33:38,790 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://ie.linkedin.com/jobs/view/quantity-surveyor-4342759118
+2026-07-15 11:33:38,808 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=e8d54f52558a58c9&from=serp&vjs=3
+2026-07-15 11:33:38,825 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225239181/quantity-surveyor
+2026-07-15 11:33:39,371 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=9dc91afe202378bd
+2026-07-15 11:33:41,155 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=493e90484ecbfc67
+2026-07-15 11:33:41,378 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/cost-controller-at-jbt-marel-4351501334?position=51&pageNum=0
+2026-07-15 11:33:41,407 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225253647/quantity-surveyor
+2026-07-15 11:33:44,537 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d427560d9954a10
+2026-07-15 11:33:45,354 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225136395/Quantity-Surveyor
+2026-07-15 11:33:45,743 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=f7769a0ed0a9cbdb
+2026-07-15 11:33:46,170 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225363147/assistant-quantity-surveyor-quantity-surveyor?keyword=quantity+surveyor
+2026-07-15 11:33:46,583 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225249214/quantity-surveyor
+2026-07-15 11:33:47,008 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225348893/quantity-surveyor
+2026-07-15 11:33:47,370 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225208079/Quantity-Surveyor-UK-Water-Sector
+2026-07-15 11:33:48,875 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://au.linkedin.com/jobs/view/quantity-surveyor-and-estimator-in-construction-at-bendigo-advertiser-4374359258?position=20&pageNum=0
+2026-07-15 11:33:55,073 - services.scrapers.linkedin - WARNING - LinkedIn page redirected to authwall or blocked: https://au.linkedin.com/jobs/view/quantity-surveyor-and-estimator-in-construction-at-bendigo-advertiser-4374359258?position=20&pageNum=0
+2026-07-15 11:33:55,074 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/finance-business-partner-at-greencore-4399530096?position=41&pageNum=0
+2026-07-15 11:33:58,338 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://qa.linkedin.com/jobs/view/senior-quantity-surveyor-roads-o-m-at-egis-4308924507
+2026-07-15 11:34:02,235 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://om.linkedin.com/jobs/view/quantity-surveyor-cost-estimator-at-meranti-green-steel-4425598699
+2026-07-15 11:34:05,145 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/quantity-surveyor-at-ezo-ev-charging-4413861746
+2026-07-15 11:34:07,407 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/mep-quantity-surveyor-at-mitie-4437984543
+2026-07-15 11:46:08,179 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:46:15,974 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 11:46:15,984 - services.scrapers.indeed - INFO - Scraping Indeed UK for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:46:24,253 - services.scrapers.indeed - INFO - Discovered 5 Indeed UK URLs. Scraping pages...
+2026-07-15 11:46:24,267 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:46:32,873 - services.scrapers.cvlibrary - INFO - Falling back to direct search page crawling for CV-Library...
+2026-07-15 11:46:33,079 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://ie.linkedin.com/jobs/view/quantity-surveyor-4342759118
+2026-07-15 11:46:33,101 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=e8d54f52558a58c9&from=serp&vjs=3
+2026-07-15 11:46:33,678 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 11:46:33,680 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=9dc91afe202378bd
+2026-07-15 11:46:35,312 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Quantity Surveyor' at 'Unknown' (Date: Recent)
+2026-07-15 11:46:35,313 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=493e90484ecbfc67
+2026-07-15 11:46:35,806 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantity Surveyor' at 'Unknown' (Date: 7 months ago)
+2026-07-15 11:46:35,808 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/cost-controller-at-jbt-marel-4351501334?position=51&pageNum=0
+2026-07-15 11:46:38,064 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Graduate Quantity Surveyor' at 'Unknown' (Date: Recent)
+2026-07-15 11:46:38,067 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d427560d9954a10
+2026-07-15 11:46:38,991 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 11:46:38,993 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=f7769a0ed0a9cbdb
+2026-07-15 11:46:39,371 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 11:46:43,243 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Cost Controller' at 'JBT Marel' (Date: 2 weeks ago)
+2026-07-15 11:46:43,245 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/finance-business-partner-at-greencore-4399530096?position=41&pageNum=0
+2026-07-15 11:46:47,562 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Finance Business Partner' at 'Greencore' (Date: 2 weeks ago)
+2026-07-15 11:46:47,564 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://om.linkedin.com/jobs/view/quantity-surveyor-cost-estimator-at-meranti-green-steel-4425598699
+2026-07-15 11:46:51,643 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantity Surveyor / Cost Estimator' at 'Meranti Green Steel' (Date: 1 month ago)
+2026-07-15 11:46:51,646 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-anamore-4306473119
+2026-07-15 11:46:53,712 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: '1,000+ Construction Estimator Jobs in United States' at 'Unknown' (Date: Recent)
+2026-07-15 11:46:53,714 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/b-b-graduate-scheme-at-brown-brown-uk-4424723998?position=50&pageNum=0
+2026-07-15 11:46:54,813 - services.scrapers.cvlibrary - WARNING - CV-Library job cards not found. Fallback search page crawl yielded 0 results.
+2026-07-15 11:46:57,249 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'B & B Graduate Scheme' at 'Brown & Brown UK' (Date: 1 month ago)
+2026-07-15 11:46:57,251 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/quantity-surveyor-at-aldwych-consulting-ltd-4430224626
+2026-07-15 11:47:00,093 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Join LinkedIn' at 'Unknown' (Date: Recent)
+2026-07-15 11:47:00,095 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/mep-quantity-surveyor-at-mitie-4437984543
+2026-07-15 11:47:04,128 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantity Surveyor' at 'Mitie' (Date: 4 days ago)
+2026-07-15 11:50:14,260 - services.scrapers.linkedin - INFO - Scraping LinkedIn for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:50:28,906 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 11:50:28,922 - services.scrapers.indeed - INFO - Scraping Indeed UK for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:50:42,144 - services.scrapers.indeed - INFO - Discovered 4 Indeed UK URLs. Scraping pages...
+2026-07-15 11:50:42,159 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for Quantity Surveyor in UK (radius 25)
+2026-07-15 11:51:00,029 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 11:51:00,059 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://ie.linkedin.com/jobs/view/quantity-surveyor-4342759118
+2026-07-15 11:51:00,234 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=e8d54f52558a58c9&from=serp&vjs=3
+2026-07-15 11:51:00,264 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225284089/quantity-surveyor-assistant-qs
+2026-07-15 11:51:01,197 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:01,198 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225348857/quantity-surveyor
+2026-07-15 11:51:01,645 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:01,646 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=9dc91afe202378bd
+2026-07-15 11:51:01,691 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:01,692 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225363147/assistant-quantity-surveyor-quantity-surveyor?keyword=quantity+surveyor
+2026-07-15 11:51:02,203 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:02,206 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225330968/assistant-quantity-surveyor
+2026-07-15 11:51:02,435 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantity Surveyor' at 'Unknown' (Date: 7 months ago)
+2026-07-15 11:51:02,436 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/cost-controller-at-jbt-marel-4351501334?position=51&pageNum=0
+2026-07-15 11:51:03,007 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:03,008 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225263492/quantity-surveyor
+2026-07-15 11:51:03,620 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:03,621 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225277973/quantity-surveyor
+2026-07-15 11:51:04,211 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:04,212 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225338416/associate-quantity-surveyor-land-remediation
+2026-07-15 11:51:04,223 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Quantity Surveyor' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:04,224 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=8d427560d9954a10
+2026-07-15 11:51:04,236 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Cost Controller' at 'JBT Marel' (Date: 2 weeks ago)
+2026-07-15 11:51:04,238 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/finance-business-partner-at-greencore-4399530096?position=41&pageNum=0
+2026-07-15 11:51:04,802 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:05,689 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Assistant Quantity Surveyor' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:05,691 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=f7769a0ed0a9cbdb
+2026-07-15 11:51:06,009 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Finance Business Partner' at 'Greencore' (Date: 2 weeks ago)
+2026-07-15 11:51:06,011 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://om.linkedin.com/jobs/view/quantity-surveyor-cost-estimator-at-meranti-green-steel-4425598699
+2026-07-15 11:51:06,112 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:08,176 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantity Surveyor / Cost Estimator' at 'Meranti Green Steel' (Date: 1 month ago)
+2026-07-15 11:51:08,177 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-anamore-4306473119
+2026-07-15 11:51:10,643 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: '20,000+ Construction Estimator Jobs in United States' at 'Unknown' (Date: Recent)
+2026-07-15 11:51:10,644 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://ie.linkedin.com/jobs/view/quantitative-analyst-at-boylesports-3453159584
+2026-07-15 11:51:12,356 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantitative Analyst' at 'BOYLE Sports' (Date: 3 years ago)
+2026-07-15 11:51:12,358 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/mep-quantity-surveyor-at-mitie-4437984543
+2026-07-15 11:51:14,136 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Quantity Surveyor' at 'Mitie' (Date: 5 days ago)
+2026-07-15 11:51:14,138 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/senior-quantity-surveyor-at-joseph-gallagher-limited-4438905228
+2026-07-15 11:51:15,908 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Senior Quantity Surveyor' at 'Joseph Gallagher Limited' (Date: 4 days ago)
+2026-07-15 12:26:39,966 - services.scrapers.linkedin - INFO - Scraping LinkedIn for estimator  in UK (radius 25)
+2026-07-15 12:26:49,126 - services.scrapers.linkedin - INFO - Discovered 6 LinkedIn URLs. Scraping pages...
+2026-07-15 12:26:49,135 - services.scrapers.indeed - INFO - Scraping Indeed UK for estimator  in UK (radius 25)
+2026-07-15 12:26:58,216 - services.scrapers.indeed - INFO - Discovered 6 Indeed UK URLs. Scraping pages...
+2026-07-15 12:26:58,223 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for estimator  in UK (radius 25)
+2026-07-15 12:27:05,020 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 12:27:05,322 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352722/estimator
+2026-07-15 12:27:05,327 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-woodford-4299414119
+2026-07-15 12:27:05,330 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=38ef54a535c5473a
+2026-07-15 12:27:05,777 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:05,777 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=fde75e0ab015ecaa
+2026-07-15 12:27:06,616 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Estimator' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:06,617 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225351995/mechanical-estimator-building-services
+2026-07-15 12:27:06,723 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Estimator (Mechanical)' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:06,723 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=b3e3ee0214093cc6
+2026-07-15 12:27:07,692 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: '1,000+ Construction Estimator Jobs in United States' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:07,698 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-anamore-4306473119
+2026-07-15 12:27:07,715 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Estimator' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:07,717 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=0e4efdc9ccd4f750
+2026-07-15 12:27:08,058 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Mechanical Estimator (Building Services)' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:08,059 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225276090/estimator
+2026-07-15 12:27:08,147 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:08,150 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=508d9118f6cdca69
+2026-07-15 12:27:08,542 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:08,546 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352963/estimator
+2026-07-15 12:27:08,602 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:08,604 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=a18f9a8485ccff57
+2026-07-15 12:27:09,053 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:09,065 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:09,072 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225328895/estimator-joinery
+2026-07-15 12:27:09,391 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:09,393 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225307591/estimator
+2026-07-15 12:27:09,572 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:27:09,573 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225319220/estimator
+2026-07-15 12:27:09,740 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:01,638 - services.scrapers.linkedin - INFO - Scraping LinkedIn for estimator in UK (radius 25)
+2026-07-15 12:38:06,767 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 12:38:06,774 - services.scrapers.indeed - INFO - Scraping Indeed UK for estimator in UK (radius 25)
+2026-07-15 12:38:14,957 - services.scrapers.indeed - INFO - Discovered 6 Indeed UK URLs. Scraping pages...
+2026-07-15 12:38:14,962 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for estimator in UK (radius 25)
+2026-07-15 12:38:23,516 - services.scrapers.cvlibrary - INFO - Falling back to direct search page crawling for CV-Library...
+2026-07-15 12:38:23,525 - services.scrapers.linkedin - ERROR - Failed scraping LinkedIn individual URLs: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,525 - services.scrapers.linkedin - INFO - Falling back to direct search page crawling for LinkedIn...
+2026-07-15 12:38:23,528 - services.scrapers.indeed - ERROR - Failed scraping Indeed individual URLs: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,528 - services.scrapers.indeed - INFO - Falling back to direct search page crawling for Indeed UK...
+2026-07-15 12:38:23,531 - services.scrapers.cvlibrary - ERROR - CV-Library fallback search failed: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,531 - services.scrapers.linkedin - ERROR - LinkedIn fallback search failed: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,531 - services.scrapers.indeed - ERROR - Indeed UK fallback search failed: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:36,155 - services.scrapers.linkedin - INFO - Scraping LinkedIn for estimator in UK (radius 25)
+2026-07-15 12:38:41,218 - services.scrapers.linkedin - INFO - Discovered 8 LinkedIn URLs. Scraping pages...
+2026-07-15 12:38:41,223 - services.scrapers.indeed - INFO - Scraping Indeed UK for estimator in UK (radius 25)
+2026-07-15 12:38:49,032 - services.scrapers.indeed - INFO - Discovered 6 Indeed UK URLs. Scraping pages...
+2026-07-15 12:38:49,041 - services.scrapers.cvlibrary - INFO - Scraping CV-Library for estimator in UK (radius 25)
+2026-07-15 12:38:56,168 - services.scrapers.cvlibrary - INFO - Discovered 7 CV-Library URLs. Scraping pages...
+2026-07-15 12:38:56,295 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352722/estimator
+2026-07-15 12:38:56,300 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=fde75e0ab015ecaa
+2026-07-15 12:38:56,303 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-woodford-4299414119
+2026-07-15 12:38:56,731 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:56,732 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=13cc8cbe9fe6a6f4
+2026-07-15 12:38:57,664 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Estimator, Business Development' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:57,664 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=b3e3ee0214093cc6
+2026-07-15 12:38:58,829 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Estimator' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:58,833 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=0e4efdc9ccd4f750
+2026-07-15 12:38:59,142 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:59,142 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=508d9118f6cdca69
+2026-07-15 12:38:59,172 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Estimator' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:59,172 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225276090/estimator
+2026-07-15 12:38:59,320 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:59,320 - services.scrapers.indeed - INFO - Scraping Indeed individual job page: https://uk.indeed.com/viewjob?jk=a18f9a8485ccff57
+2026-07-15 12:38:59,448 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: '20,000+ Construction Estimator Jobs in United States' at 'Unknown' (Date: Recent)
+2026-07-15 12:38:59,448 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-anamore-4306473119
+2026-07-15 12:38:59,528 - services.scrapers.indeed - INFO - Extracted Indeed Job: 'Additional Verification Required' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:00,340 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Estimator' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:00,340 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225307591/estimator
+2026-07-15 12:39:00,500 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:00,501 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225271299/senior-estimator
+2026-07-15 12:39:00,626 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:00,627 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225352963/estimator
+2026-07-15 12:39:00,822 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:00,823 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225319220/estimator
+2026-07-15 12:39:00,941 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:00,941 - services.scrapers.cvlibrary - INFO - Scraping CV-Library individual job page: https://www.cv-library.co.uk/job/225328895/estimator-joinery
+2026-07-15 12:39:01,116 - services.scrapers.cvlibrary - INFO - Extracted CV-Library Job: 'Blocked' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:01,823 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: '20,000+ Construction Estimator Jobs in United States' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:01,823 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/engineering-estimator-at-melbreck-technical-recruitment-4316953255
+2026-07-15 12:39:03,646 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Join LinkedIn' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:03,647 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://gy.linkedin.com/jobs/view/estimator-at-guardian-jobs-4377120177
+2026-07-15 12:39:04,914 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Join LinkedIn' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:04,915 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/cost-controller-at-jbt-marel-4351501334?position=51&pageNum=0
+2026-07-15 12:39:05,991 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Join LinkedIn' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:05,992 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://au.linkedin.com/jobs/view/quantity-surveyor-and-estimator-in-construction-at-bendigo-advertiser-4374359258?position=20&pageNum=0
+2026-07-15 12:39:07,273 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Join LinkedIn' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:07,273 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://www.linkedin.com/jobs/view/4435542541/
+2026-07-15 12:39:08,430 - services.scrapers.linkedin - INFO - Extracted LinkedIn Job: 'Join LinkedIn' at 'Unknown' (Date: Recent)
+2026-07-15 12:39:08,431 - services.scrapers.linkedin - INFO - Scraping LinkedIn individual job page: https://uk.linkedin.com/jobs/view/estimator-at-the-construction-index-ltd-4440334057

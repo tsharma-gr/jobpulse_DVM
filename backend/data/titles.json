@@ -1,0 +1,32 @@
+{
+  "estimator": [
+    "Estimator",
+    "Senior Estimator",
+    "Lead Estimator",
+    "Assistant Estimator",
+    "Estimating Manager",
+    "Cost Estimator",
+    "Commercial Estimator",
+    "Preconstruction Estimator"
+  ],
+  "quantity surveyor": [
+    "Quantity Surveyor",
+    "Senior Quantity Surveyor",
+    "Assistant Quantity Surveyor",
+    "Project Quantity Surveyor",
+    "Managing Quantity Surveyor",
+    "QS",
+    "Graduate Quantity Surveyor"
+  ],
+  "software engineer": [
+    "Software Engineer",
+    "Senior Software Engineer",
+    "Lead Software Engineer",
+    "Junior Software Engineer",
+    "Software Developer",
+    "Senior Software Developer",
+    "Full Stack Engineer",
+    "Backend Engineer",
+    "Frontend Engineer"
+  ]
+}

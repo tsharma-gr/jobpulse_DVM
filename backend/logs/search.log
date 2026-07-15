@@ -1,0 +1,475 @@
+2026-07-15 10:17:37,390 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 10:18:33,005 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 10:19:11,667 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 10:20:43,795 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Estimator" "London"
+2026-07-15 10:20:44,579 - primp - INFO - response: https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 200
+2026-07-15 10:20:45,788 - primp - INFO - response: https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&first=11&FORM=PERE 200
+2026-07-15 10:20:46,795 - primp - INFO - response: https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&first=21&FORM=PERE1 200
+2026-07-15 10:20:47,841 - primp - INFO - response: https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&first=31&FORM=PERE2 200
+2026-07-15 10:20:49,369 - primp - INFO - response: https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&first=41&FORM=PERE3 200
+2026-07-15 10:20:49,595 - utils.ddg_search - INFO - DuckDuckGo discovered 0 URLs for linkedin.com/jobs/view
+2026-07-15 10:20:49,608 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Estimator" "London"
+2026-07-15 10:20:50,239 - primp - INFO - response: https://www.bing.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:20:51,349 - primp - INFO - response: https://www.bing.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&first=11&FORM=PERE 200
+2026-07-15 10:20:52,395 - primp - INFO - response: https://www.bing.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&first=21&FORM=PERE1 200
+2026-07-15 10:20:53,493 - primp - INFO - response: https://www.bing.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&first=31&FORM=PERE2 200
+2026-07-15 10:20:54,545 - primp - INFO - response: https://www.bing.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&first=41&FORM=PERE3 200
+2026-07-15 10:20:54,598 - utils.ddg_search - INFO - DuckDuckGo discovered 0 URLs for uk.indeed.com/viewjob
+2026-07-15 10:20:54,610 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Estimator" "London"
+2026-07-15 10:20:55,140 - primp - INFO - response: https://www.bing.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:20:56,213 - primp - INFO - response: https://www.bing.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&first=11&FORM=PERE 200
+2026-07-15 10:20:57,324 - primp - INFO - response: https://www.bing.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&first=21&FORM=PERE1 200
+2026-07-15 10:20:58,386 - primp - INFO - response: https://www.bing.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&first=31&FORM=PERE2 200
+2026-07-15 10:20:59,495 - primp - INFO - response: https://www.bing.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&first=41&FORM=PERE3 200
+2026-07-15 10:20:59,541 - utils.ddg_search - INFO - DuckDuckGo discovered 0 URLs for cv-library.co.uk/job
+2026-07-15 10:21:21,512 - api.routes - INFO - Filtered out recruitment agency: Cotech Building Careers for job Estimator
+2026-07-15 10:21:21,513 - api.routes - INFO - Filtered out recruitment agency: Spencers Recruitment for job Cost Estimator
+2026-07-15 10:21:21,513 - api.routes - INFO - Filtered out recruitment agency: Streamline Search for job Estimator
+2026-07-15 10:21:21,513 - api.routes - INFO - Filtered out recruitment agency: Future Engineering Recruitment Ltd for job Estimator
+2026-07-15 10:21:21,515 - api.routes - INFO - Filtered out recruitment agency: PRS for job Estimator
+2026-07-15 10:22:45,318 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 10:22:51,296 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Estimator" "London"
+2026-07-15 10:22:52,118 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:22:52,392 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:22:52,973 - primp - INFO - response: https://search.yahoo.com/search;_ylt=O-wfea0Um9Lju2p8KAQpo2do;_ylu=bkbLiPs-P5oMqw-4go_GKDPEUNtsWmFt8MnJHnxk2rqX7PI?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 200
+2026-07-15 10:22:54,481 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107374Ta72e1a7f31d03a60ceca93b2d12dd1a13d996fe8748ec71eb6fe1a46a4bc9953&bds_s=1fed5cb616774d7ca4f6c76c4152a3b9&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=1FY0FBf9QMavmNNhYheHaUwzb2R9GZvZlKL2ob0TOzs75rWBTCFH0icv86oXKH8MM1iszxL22W2wcnFmK3g1&cmd=gen_page 200
+2026-07-15 10:22:55,283 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107374Ta72e1a7f31d03a60ceca93b2d12dd1a13d996fe8748ec71eb6fe1a46a4bc9953&bds_s=4ca0c9e941b046138d85ea0f60da70e7&bds_cq=&language=english&qadf=moderate&abe=0&lui=english&segment=organic&qsr=en_US&abd=0&sc=&abp=1&t=device&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:22:56,189 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 403
+2026-07-15 10:22:56,940 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&source=web 200
+2026-07-15 10:22:56,980 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 10:22:56,996 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Estimator" "London"
+2026-07-15 10:22:57,476 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:22:57,533 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:22:58,429 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107378T347388bdf037dfdb6648cf840cf7b291c10d644972bfb62dab77ec02539e218d&bds_s=60a427374f0f49d68c7c804689daf991&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=pb8SDxdwDJuDIKbGFXbskKXPt1PUF39SmAUKqB2aYKSMY3UpezCvrkPMQyLS1z6x93ncsejupZ6MpvIB1X&cmd=gen_page 200
+2026-07-15 10:22:59,437 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107378T347388bdf037dfdb6648cf840cf7b291c10d644972bfb62dab77ec02539e218d&bds_s=1b788e12af7c4e8fa56c5643ed66f27d&bds_cq=&abp=1&lui=english&segment=organic&t=device&abe=0&abd=0&qadf=moderate&language=english&sc=&qsr=en_US&query=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:22:59,890 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:23:00,846 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:23:02,707 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&web=1&searchid=9456703 200
+2026-07-15 10:23:03,092 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 10:23:03,837 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 403
+2026-07-15 10:23:04,498 - primp - INFO - response: https://search.yahoo.com/search;_ylt=HRDcItBDjcEbpaWpF59Pwwn0;_ylu=RwK8CHmyj1IlROFTyXFlUJdMf_NIrnBXsBebpEduXXC2gT0?p=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:23:04,648 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for uk.indeed.com/viewjob
+2026-07-15 10:23:04,661 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Estimator" "London"
+2026-07-15 10:23:05,121 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:23:05,339 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:23:05,903 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:23:06,616 - primp - INFO - response: https://search.yahoo.com/search;_ylt=DhM0Vn-6JdRnVS2N5miPrDXT;_ylu=fPracmseZFZbSEsS75aOiorVEauTIbEJiC-VIdt0MtchxD4?p=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:23:07,443 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:23:09,083 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&web=1&searchid=4372483 200
+2026-07-15 10:23:09,986 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 10:23:10,879 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107390T9058ba9512998a7dfede241f6e3543ab733b98a6a4e3aa1dd2b787a1df526cf4&bds_s=ba25d8ee1e954b56862aa54d6c30bd44&bds_cq=&lui=english&abp=1&t=device&abe=0&sc=FQvBsxDP9ZSX6aoSEIyPRBotRJg2s8gEM0GfootUIMNC3hyHdRY0CYgoS6x4RuRKzj2QORCC6u9rTQYdMn6yQCKS9GJjJ0N8u1&segment=startpage.udog&qadf=moderate&qsr=en_US&abd=0&language=english&query=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:23:11,587 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 403
+2026-07-15 10:23:11,589 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 10:26:06,496 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 10:26:16,051 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Estimator" "London"
+2026-07-15 10:26:16,955 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:26:17,050 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:26:17,805 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 403
+2026-07-15 10:26:18,501 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 10:26:19,811 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107579T6e1502d4ed79dbbc21475bac5f709bda926002d775df830b6b65e1a39570f815&bds_s=77616c53699740669d72485e52ea951a&bds_cq=&qsr=en_US&abd=0&segment=startpage.udog&sc=FQvBsxDPa2OQRAvmTepovuazYB9P9oqyCE1QSmVp81jjpnxRGKYTk4Rnbq8qtyIDokj90ZcdwGEUzLIzktS7CPoceJmhbcxlHD&qadf=moderate&lui=english&abp=1&t=device&language=english&abe=0&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:26:20,545 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:26:21,532 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:26:22,732 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&web=1&searchid=1063421 200
+2026-07-15 10:26:23,336 - primp - INFO - response: https://search.yahoo.com/search;_ylt=rCiUsHTvYLLqy2am6QHwJxNW;_ylu=caRoi65VgSr1ir0URFGLyqj14JiegMIMZpa24ns8URQYl1A?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 200
+2026-07-15 10:26:23,934 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 10:26:23,937 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for linkedin.com/jobs/view
+2026-07-15 10:26:23,966 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Estimator" "London"
+2026-07-15 10:26:24,593 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:26:24,741 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:26:25,373 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 403
+2026-07-15 10:26:25,931 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:26:27,541 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&web=1&searchid=8302570 200
+2026-07-15 10:26:29,899 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107588T7aea6748da0395aff089d448f7a02473da78e7142a60bd442de9c85c7ca71fb2&bds_s=c8feae013e7e4ab5800db198bf2f226b&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=665xzJlcirKXPRtQC5GXMmy06Ze2aiENYXg9Ry1OskkxX7z4NpybuOiHnZrGLv2TcWQbPe3w6A4rSnjZz&cmd=gen_page 200
+2026-07-15 10:26:30,918 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107590T3128853f5caa1bb4a38f3acfcd7b89c6cbd7a39e780faa61872b8f2d4ca0faff&bds_s=d36d99196b354de4adebfe8bed64272a&bds_cq=&language=english&qadf=moderate&qsr=en_US&abd=0&lui=english&t=device&sc=&segment=organic&abe=0&abp=1&query=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:26:31,635 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:26:32,003 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 10:26:32,625 - primp - INFO - response: https://search.yahoo.com/search;_ylt=X0HCrWiWpbp6uZnZPAhG2-gu;_ylu=BHd9gYSrhTrMGt8i_iAOvkA5K-1RcU1wh5MIHACtUXdyVMg?p=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:26:32,900 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for uk.indeed.com/viewjob
+2026-07-15 10:26:32,921 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Estimator" "London"
+2026-07-15 10:26:33,396 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:26:34,341 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:26:34,800 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:26:35,113 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 10:26:36,491 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&web=1&searchid=4149894 200
+2026-07-15 10:26:37,155 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 403
+2026-07-15 10:26:37,821 - primp - INFO - response: https://search.yahoo.com/search;_ylt=tR7SzL8yub1B76_ngWTjWAgm;_ylu=G-q45c1OJ0ZrBXOZOK7WZ-I8XRTxGw9qUxlHVqOHOb6nEx8?p=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:26:38,625 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:26:39,646 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 10:26:41,063 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107600T97ea58244f8b5cf79aaf7802c6042bdbc464b007d6559acb029757262a7facd6&bds_s=fb5912710c91460db6b35f5bb0f0f1a6&bds_cq=&sc=2sbbv9IndUvZfrummr0IBefr9TXQsB7XrQCqhcJ5VwrL5NVTI0XiCxvlJ7CHaG14Z0iBe1cHYJ3opLneQ6TsY7sxl22zw2ex&lui=english&segment=startpage.udog&language=english&qsr=en_US&t=device&qadf=moderate&abe=0&abd=0&abp=1&query=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:26:41,069 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 10:30:19,266 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 10:30:27,239 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Estimator" "London"
+2026-07-15 10:30:28,483 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:30:28,589 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:30:29,319 - primp - INFO - response: https://search.yahoo.com/search;_ylt=bfeCTxQL8e7x2EfAVaxiAT42;_ylu=t9ec9cvLIxgxvFXRzhc6Ma_qSgbos3bWJ1zTBDJFV9qC3dY?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 200
+2026-07-15 10:30:30,124 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:30:31,122 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 10:30:32,291 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107831Te5df03ffea63f2d8a04398114c0bded974ec0c0a071706dd7bbf67250cddd273&bds_s=224cd87ec61e4161b0e26fbcfb9a3bbd&bds_cq=&qadf=moderate&sc=2sbbv9Ine57YUEY6M0M5qejmDAarIo9zXXNvVoQn4fzqGUC9csHA72jm0Qg1ynUvxh5By55Vfop3jpOj8YHBIRZa06COxMZv&abd=0&abe=0&language=english&lui=english&abp=1&t=device&segment=startpage.udog&qsr=en_US&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:30:32,982 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22 403
+2026-07-15 10:30:34,476 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Estimator%22+%22London%22&web=1&searchid=1551785 200
+2026-07-15 10:30:34,542 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 10:30:34,553 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Estimator" "London"
+2026-07-15 10:30:34,973 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:30:35,106 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:30:35,904 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 403
+2026-07-15 10:30:37,830 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&web=1&searchid=9819812 200
+2026-07-15 10:30:38,394 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:30:39,007 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:30:39,909 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107839T5755657baabbfc52a0866a958e01314082054dd9456166371f9564892427b7ec&bds_s=5bf8e4cdffdc4b86a7f54888259be427&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=pb8SDxdwNAR187VL6nRFRg0XVj9Tbs9RIFGQQKsfnbpv0zfWvmEJGZx3TUr47A0uvpX1h1Qia2GGMaZf4h&cmd=gen_page 200
+2026-07-15 10:30:41,048 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107840Te4b70deb4399b5c905c07ad440f616509feea39c5868ca4da5decdd622d921ea&bds_s=024c8e38e86d48b6abefc94fe7ed400e&bds_cq=&language=english&qadf=moderate&abd=0&sc=&abp=1&qsr=en_US&segment=organic&t=device&lui=english&abe=0&query=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:30:41,397 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 10:30:41,964 - primp - INFO - response: https://search.yahoo.com/search;_ylt=UeILmxOT4fbFHFtoTTpqxp1o;_ylu=Mi3K5OMOFRUDDDILYw3omxLVCfIo6DN0N7yXqFJ4IEkEH4o?p=site%3Auk.indeed.com%2Fviewjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:30:42,224 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for uk.indeed.com/viewjob
+2026-07-15 10:30:42,242 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Estimator" "London"
+2026-07-15 10:30:42,731 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Estimator%22%20%22London%22 200
+2026-07-15 10:30:42,939 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&limit=1 200
+2026-07-15 10:30:43,598 - primp - INFO - response: https://search.yahoo.com/search;_ylt=ye04FWmkFIVL0gH5F83yGsax;_ylu=B3crS9Bo7dcis05lNxZS7260Rl4HVPeEhfKp7ccGOF0JAb8?p=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 200
+2026-07-15 10:30:45,209 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&web=1&searchid=3457828 200
+2026-07-15 10:30:45,890 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22 403
+2026-07-15 10:30:47,375 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 10:30:48,628 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784107848T3efd1ccc7114498712fc23a27e73a17915d36a8e92989ee4aefab6dee3f44ace&bds_s=03dd41e6a3d549428e581cea62590532&bds_cq=&language=english&sc=FQvBsxDP9YNtoq03eVqRi1sHbE19KX0KBXG1qwqzM9ArwKvOzHvDxRE6DHvGXJSeJZAEMm9Qz4VF34t8QG7f7BSk9LxkLkcEyx&qsr=en_US&qadf=moderate&segment=startpage.udog&abe=0&abd=0&lui=english&abp=1&t=device&query=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 10:30:49,197 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&source=web 429
+2026-07-15 10:30:49,903 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Estimator%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 10:30:50,210 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 11:03:46,527 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 11:04:21,749 - utils.llm - INFO - Generating AI title expansions for 'Bricklayer' in 'Construction' via DeepSeek...
+2026-07-15 11:04:22,579 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:04:23,784 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:04:24,103 - utils.llm - INFO - Generating AI title expansions for 'Bricklayer' in 'Construction' via DeepSeek...
+2026-07-15 11:04:24,484 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:04:25,589 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:04:25,591 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Bricklayer" "London"
+2026-07-15 11:04:26,714 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Bricklayer%22%20%22London%22 200
+2026-07-15 11:04:27,306 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22&limit=1 200
+2026-07-15 11:04:28,010 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22 403
+2026-07-15 11:04:28,928 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:04:30,392 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784109869T5b75a8d426335df09f221433f232e63abbedc74f54789d42d2567eaa15ef37a1&bds_s=1a5340f286f44f15893376c0e8100cb0&bds_cq=&language=english&qsr=en_US&abd=0&sc=FQvBsxDPa2jla3OKgcE9pIBJkG6NErA2bwoHyKB8ExToMsMPMNqGEH8ZhuIPaCFYOnWSeClXhysSKFNCXetPF9JGtwJBKtOZ1b&t=device&qadf=moderate&segment=startpage.udog&lui=english&abe=0&abp=1&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 11:04:31,487 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22&web=1&searchid=4667002 200
+2026-07-15 11:04:32,051 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:04:33,314 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22&source=web 200
+2026-07-15 11:04:33,926 - primp - INFO - response: https://search.yahoo.com/search;_ylt=uI9FuPpuG3rcM3ERcijyjgx0;_ylu=9kXxe2_pzgkVCTzIbY1aV4-Qt7rym_vBF3VJ1zyDP318upQ?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Bricklayer%22+%22London%22 200
+2026-07-15 11:04:34,930 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:04:34,933 - utils.ddg_search - INFO - DuckDuckGo discovered 2 URLs for linkedin.com/jobs/view
+2026-07-15 11:04:34,957 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Bricklayer" "London"
+2026-07-15 11:04:35,838 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22&limit=1 200
+2026-07-15 11:04:35,907 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Bricklayer%22%20%22London%22 200
+2026-07-15 11:04:36,452 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:04:37,834 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784109877Tcfd3a4b90f77df6d042c2823d6e99a0a416cbb94dea8defcf047995f8a75ab6d&bds_s=933075d0be9440b49ad805dc60082360&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=665xzJlcip4PojdIyadhiOiUnx0qjaaQnLHmypYmId6phnXzWeam29gh5I7T84w7NGTDMTNx8iEqGva3P&cmd=gen_page 200
+2026-07-15 11:04:38,998 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784109878T8052219f5f1c5ef1b5f5d81ea428de3e8b02e0424d8d5487791412dac9cdbfe7&bds_s=cecad797f1a34048a83615213b64c7e6&bds_cq=&abp=1&abe=0&t=device&segment=organic&abd=0&qadf=moderate&sc=&qsr=en_US&language=english&lui=english&query=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 11:04:39,248 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:04:40,715 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22&web=1&searchid=5440123 200
+2026-07-15 11:04:41,455 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22 403
+2026-07-15 11:04:42,005 - primp - INFO - response: https://search.yahoo.com/search;_ylt=MzwuNr26YLAyqXqY1-4fGLO7;_ylu=iVdkIiN1FpMmbczLp6eNvzogYlEzUDALbwlJlwtLoQL99kE?p=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22 200
+2026-07-15 11:04:42,822 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Bricklayer%22+%22London%22&source=web 429
+2026-07-15 11:04:42,890 - utils.ddg_search - INFO - DuckDuckGo discovered 5 URLs for uk.indeed.com/viewjob
+2026-07-15 11:04:42,909 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Bricklayer" "London"
+2026-07-15 11:04:43,703 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Bricklayer%22%20%22London%22 200
+2026-07-15 11:04:43,983 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22&limit=1 200
+2026-07-15 11:04:44,258 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:04:44,717 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22&source=web 429
+2026-07-15 11:04:45,336 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:04:46,149 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22 403
+2026-07-15 11:04:47,086 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:04:48,289 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784109887Te80fa5ba8495fd1c2ce405b6b9a6cb48533ca920a0b3a34284938571c0e7b031&bds_s=80509d6889ef48ce8509aa5c0c247899&bds_cq=&abp=1&abd=0&qsr=en_US&qadf=moderate&segment=startpage.udog&language=english&t=device&abe=0&sc=FQvBsxDP9YByfXgm3FN05oTGiAFRXEY0oAxSsmmiBDyYcdMkbXhViovWuFyFzQS3s5v3FMhitcRKEmLvb4XGdIZmqgAW9kzkQd&lui=english&query=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22&cat=web&cmd=gen_page 200
+2026-07-15 11:04:49,008 - primp - INFO - response: https://search.yahoo.com/search;_ylt=Omk8Nb23gxNt_BVcbXyNSHA1;_ylu=8m9sAVj8hAua1oaye5_u-wQgCoSC8wR5Z6xCRA4-uAb66uM?p=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22 200
+2026-07-15 11:04:50,373 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Bricklayer%22+%22London%22&web=1&searchid=6351285 200
+2026-07-15 11:04:50,376 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 11:04:59,081 - utils.llm - INFO - Generating LLM match reasons for 1 jobs via DeepSeek...
+2026-07-15 11:04:59,501 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:05:00,341 - utils.llm - INFO - Successfully mapped LLM generated match reasons.
+2026-07-15 11:22:59,023 - utils.llm - INFO - Generating AI title expansions for 'Quantity Surveyor' in 'Construction' via DeepSeek...
+2026-07-15 11:22:59,387 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:23:00,326 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:23:00,648 - utils.llm - INFO - Generating AI title expansions for 'Quantity Surveyor' in 'Construction' via DeepSeek...
+2026-07-15 11:23:01,041 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:23:02,080 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:23:02,082 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Quantity Surveyor" "UK"
+2026-07-15 11:23:02,594 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:23:02,851 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:23:03,861 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:23:04,734 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784110984Tfbc6a521976c579765df44aa814f81f2c70aaa916c530c083e38fe99e2b0641c&bds_s=0c06b3add2d9446993feda85c3f564be&bds_cq=&abe=0&lui=english&qsr=en_US&language=english&abd=0&qadf=moderate&sc=FQvBsxDPa38RwKsQvJsbADXHD8rzijKhDIAnBYIMhqwI8IgQBPdcWDnb2vPnifJKxjWAY6MFkXlgO9pXGfmhH8RC6jdvfkHtrT&t=device&abp=1&segment=startpage.udog&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:23:06,396 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=2068506 200
+2026-07-15 11:23:07,170 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:23:07,516 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:23:08,045 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&source=web 429
+2026-07-15 11:23:08,547 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:23:09,455 - primp - INFO - response: https://search.yahoo.com/search;_ylt=ExSd0jhrCHanHWHTUOMeY6jZ;_ylu=EsUCtom6m4Yqq8pAbfGwsSuvEsgrAOLD8CatNbmlbGI5A6g?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22 200
+2026-07-15 11:23:09,801 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 11:23:09,816 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Quantity Surveyor" "UK"
+2026-07-15 11:23:10,653 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:23:11,196 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:23:12,307 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=2497007 200
+2026-07-15 11:23:12,798 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&source=web 429
+2026-07-15 11:23:14,505 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:23:15,153 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:23:15,871 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:23:16,580 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:23:17,656 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784110997T7b48c8032bdb51e7fbba20e768188b532cf56504a285302fd959117b913626f2&bds_s=97c54378a97b4d37a958c0ba99acdb8b&bds_cq=&segment=startpage.udog&abp=1&sc=FQvBsxDPa2qZGWQCTcnmmar4n0B5W5fOzfhbcs5L4eJpJwzi7EXW00xnm4eMCkEYbSAkMOWmt3BbTQLsZ2i0UdegYnIcEpvIOp&abd=0&language=english&qsr=en_US&abe=0&t=device&qadf=moderate&lui=english&query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:23:18,468 - primp - INFO - response: https://search.yahoo.com/search;_ylt=gz8K3pz9Lo5j4HK609HDV-ZJ;_ylu=RuMSB2iDPnwilgI-GAVgtoRgK2roI85BEETQFCqlRz4KfYQ?p=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22 200
+2026-07-15 11:23:18,535 - utils.ddg_search - INFO - DuckDuckGo discovered 5 URLs for uk.indeed.com/viewjob
+2026-07-15 11:23:18,544 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Quantity Surveyor" "UK"
+2026-07-15 11:23:19,106 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 502
+2026-07-15 11:23:19,346 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:23:20,023 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:23:21,132 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784111000Taf86042962ad8af6678de9e1fc290956a598d4bbc30c76072527495d48ac01ed&bds_s=6398b6dc02f348e9a650294462f37690&bds_cq=&abd=0&t=device&segment=startpage.udog&abp=1&language=english&sc=a8mbuE7dQj3lwbhITc9xwLcUJymLEB9RjKlGTXPGFLsAoBtrEnflOnBhM6mQVuFK8B8rvSurioVMLJ8VhqroAOLFv5vTRQXXT&qsr=en_US&lui=english&abe=0&qadf=moderate&query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:23:22,168 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=8523582 200
+2026-07-15 11:23:22,910 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:23:23,169 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:23:23,694 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&source=web 429
+2026-07-15 11:23:24,622 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:23:25,870 - primp - INFO - response: https://search.yahoo.com/search;_ylt=5ADuGlvtj2113KDab5xekhO1;_ylu=E0fpwuwK-TjRvIepkfBbVxpoM2Twr30iau1PZx5ajUAgsPk?p=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22 200
+2026-07-15 11:23:26,333 - utils.ddg_search - ERROR - DuckDuckGo search failed for query 'site:cv-library.co.uk/job "Quantity Surveyor" "UK"': No results found.
+2026-07-15 11:23:48,401 - utils.llm - INFO - Generating LLM match reasons for 6 jobs via DeepSeek...
+2026-07-15 11:23:48,751 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:23:50,581 - utils.llm - INFO - Successfully mapped LLM generated match reasons.
+2026-07-15 11:32:58,777 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 11:33:12,240 - utils.llm - INFO - Generating AI title expansions for 'Quantity Surveyor' in 'Construction' via DeepSeek...
+2026-07-15 11:33:13,521 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:33:14,540 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:33:14,851 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Quantity Surveyor" "UK"
+2026-07-15 11:33:15,994 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:33:16,165 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:33:16,851 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:33:17,801 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784111597T5279c1923bcfb0d24e7caf1e14c03a15c030a2fc59b8517f890ab088ccab93bc&bds_s=461b3d078c4c4e96880cdd0e8b2a3e52&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=1FY0FBf9QM33WYFUX4viKKvftsR9P2poE2dqnnUsXvuFugGtlNwJ1QTE7Ew3QW2wtJDAaDdvCeV23MuIQyJL&cmd=gen_page 200
+2026-07-15 11:33:18,746 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784111598Tfc0258db23723237d3df89de8018ec38b7bf02292535a22528641d41f9a05fa5&bds_s=b9ae86b3e85d49e0ae87d0e616bd1aa1&bds_cq=&lui=english&abp=1&qsr=en_US&language=english&abd=0&abe=0&qadf=moderate&sc=&t=device&segment=organic&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:33:19,224 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&source=web 429
+2026-07-15 11:33:19,961 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:33:21,825 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=8886634 200
+2026-07-15 11:33:22,175 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:33:22,906 - primp - INFO - response: https://search.yahoo.com/search;_ylt=FRUmKph705cXo7Kp1xb16Alt;_ylu=uq3KEvCcb6fnJSCXYyJxUECuXA0183ndIXYGXllM7U5FSpg?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22 200
+2026-07-15 11:33:23,159 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 11:33:23,176 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Quantity Surveyor" "UK"
+2026-07-15 11:33:24,001 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:33:24,612 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:33:24,839 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:33:25,434 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&source=web 429
+2026-07-15 11:33:26,529 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:33:27,696 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784111607T96a68518fa4f6a608ac5459ba9039819950a4af8058825282adf279ee7943b38&bds_s=5cc29d744dd84f1280f56662675a5a57&bds_cq=&qsr=en_US&abp=1&abe=0&lui=english&segment=startpage.udog&qadf=moderate&t=device&abd=0&sc=2sbbv9IndCdj26TU0fqNrQ332WaCUbtfUjd7tEx8XMT4FSffLBRC0gJJJUfv1BWPIbDDJ8lqVMKdCRKZyoI7Pmp4M103ffSR&language=english&query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:33:28,275 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:33:29,514 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=8845798 200
+2026-07-15 11:33:30,234 - primp - INFO - response: https://search.yahoo.com/search;_ylt=RojwwtRfphLZhWfA5TbDQItE;_ylu=XuiewgNgEwY8swag5Nh5LYvS5LBpEMQrvd3jEnSpVU60Cp4?p=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22 200
+2026-07-15 11:33:31,167 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:33:31,169 - utils.ddg_search - INFO - DuckDuckGo discovered 5 URLs for uk.indeed.com/viewjob
+2026-07-15 11:33:31,196 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Quantity Surveyor" "UK"
+2026-07-15 11:33:31,955 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:33:32,109 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:33:33,595 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=1483631 200
+2026-07-15 11:33:34,306 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:33:35,440 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784111615Tad337b7ae6623d58ea43fec0e69d74c524834d89bc87fc953e2797e42ac8cfab&bds_s=ab50f52b53fd4f3a99a2959cf6de9258&bds_cq=&qsr=en_US&abd=0&abe=0&segment=startpage.udog&language=english&t=device&qadf=moderate&lui=english&sc=2sbbv9Ine74WC82zO5UZFdytjl1XLimDIYAJRQHwzZv97RSlMk2sWAmuUKReg2LNFJ9vQehN8ZbAokhSYxkx6lv00H5TsNJz&abp=1&query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:33:36,109 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:33:36,405 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:33:36,861 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&source=web 429
+2026-07-15 11:33:37,427 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200
+2026-07-15 11:33:38,146 - primp - INFO - response: https://search.yahoo.com/search;_ylt=nX_U7_4w9T1xQ2l35sWHt6Hq;_ylu=ECO6PLNZR5XaBkzyw2wtzzcaS5mEv-kjGIIzp50I_dOmgak?p=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22 200
+2026-07-15 11:33:38,600 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 11:34:10,794 - utils.llm - INFO - Generating LLM match reasons for 7 jobs via DeepSeek...
+2026-07-15 11:34:11,176 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:34:13,962 - utils.llm - INFO - Successfully mapped LLM generated match reasons and percentages.
+2026-07-15 11:45:58,926 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 11:46:05,772 - utils.llm - INFO - Generating AI title expansions for 'Quantity Surveyor' in 'Construction' via DeepSeek...
+2026-07-15 11:46:07,142 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:46:07,866 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:46:08,180 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Quantity Surveyor" "UK" [timelimit='m' applied]
+2026-07-15 11:46:08,886 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:46:09,510 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&limit=1 502
+2026-07-15 11:46:10,744 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:46:12,374 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112371Teda431cce582dce87d78da12c8158e36df86e58aae08d27e843c4c70af73a50f&bds_s=acbbb5736eec4694b4cb2fac4d443ec8&bds_cq=&qadf=moderate&lui=english&language=english&abp=1&abd=0&sc=2sbbv9Ine2ananxvsAVJHQVqeb4YrUcd7TeFPZTug27DWc4c0ei873NCiMOzYnGpQWqX8bYDUT6Y65ixEWxkExXVV6O1nlxj&abe=0&with_date=m&qsr=en_US&segment=startpage.udog&t=device&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:46:13,173 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:46:13,464 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:46:14,915 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=1469369 200
+2026-07-15 11:46:15,562 - primp - INFO - response: https://search.yahoo.com/search;_ylt=GmgsFO5_Q_afffCpz4G80V5t;_ylu=5oyBIdFltYwVq0GImhJW1bmXwQgASV70B6yHBv85CMjtwUc?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&btf=m 200
+2026-07-15 11:46:15,972 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 11:46:15,987 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Quantity Surveyor" "UK" [timelimit='m' applied]
+2026-07-15 11:46:16,469 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:46:17,378 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 502
+2026-07-15 11:46:17,897 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 11:46:18,270 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:46:19,734 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=4876265 200
+2026-07-15 11:46:20,354 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 11:46:21,470 - primp - INFO - response: https://search.yahoo.com/search;_ylt=8GvDlIGepIAarDG5sg14y1mK;_ylu=5-poghJtmjh0VY_y1EoKitzMsPXUy8hQMfIu9elCG3fncuk?p=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&btf=m 200
+2026-07-15 11:46:22,363 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:46:23,110 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:46:24,245 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112384T5c2db5baabce156b7762a295e74a74ed5080f398b7e7f5d671eda21ef740a5ba&bds_s=5a0be073a15d4122806464d6f5afbde8&bds_cq=&with_date=m&lui=english&qsr=en_US&sc=a8mbuE7dSKho1d7tdVocFixwoGpkoZLjA5573X93BNR5KCM6N9UaGCgaAmFTeyIMvswlUWqxuoFoKMmhmk47PqzDT8qA9xh2R&abe=0&abp=1&qadf=moderate&language=english&t=device&abd=0&segment=startpage.udog&query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:46:24,250 - utils.ddg_search - INFO - DuckDuckGo discovered 5 URLs for uk.indeed.com/viewjob
+2026-07-15 11:46:24,269 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Quantity Surveyor" "UK" [timelimit='m' applied]
+2026-07-15 11:46:24,793 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:46:25,690 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 502
+2026-07-15 11:46:26,435 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:46:27,023 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 11:46:27,347 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:46:27,892 - primp - INFO - response: https://search.yahoo.com/search;_ylt=9dj79ZTIHs3TJccgweUSzVhf;_ylu=UFw_4E4WfeY8xLo1UeeNku2YwtuT1tQyp_oMqeUkoIpn0lI?p=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&btf=m 200
+2026-07-15 11:46:29,392 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=2412983 200
+2026-07-15 11:46:30,375 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 11:46:31,935 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112391Tc3eb6d5a2a0af32dbe33ef8b1e0033e6709e101a9f8731a271e705e4540e035c&bds_s=c347b9ed9c48427d91d5e40088263aeb&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=pb8SDxdwOwf4TEfZyO7AQO43jjpYO3hmn15xs83TL51p7UpNT6jrNiY2EeN4H36m5a2BS9AYrRN1EmL4br&cmd=gen_page 200
+2026-07-15 11:46:32,864 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112392T285f36f1d5cdb32509f949cb91a2add0160de874a08ef2dca59d748041e35b3f&bds_s=2701347bab2a48b1b6394f11ce435a58&bds_cq=&sc=&qsr=en_US&lui=english&segment=organic&with_date=m&abd=0&abp=1&t=device&qadf=moderate&abe=0&language=english&query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:46:32,871 - utils.ddg_search - ERROR - DuckDuckGo search failed for query 'site:cv-library.co.uk/job "Quantity Surveyor" "UK"': No results found.
+2026-07-15 11:47:04,202 - utils.llm - INFO - Generating LLM match reasons for 5 jobs via DeepSeek...
+2026-07-15 11:47:04,631 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:47:07,185 - utils.llm - INFO - Successfully mapped LLM generated match reasons and percentages.
+2026-07-15 11:50:12,339 - utils.llm - INFO - Generating AI title expansions for 'Quantity Surveyor' in 'Construction' via DeepSeek...
+2026-07-15 11:50:13,140 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:50:13,940 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 11:50:14,261 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "Quantity Surveyor" "UK" [timelimit='m' applied]
+2026-07-15 11:50:14,740 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:50:15,578 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:50:19,375 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:50:20,906 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=5342523 200
+2026-07-15 11:50:22,331 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 11:50:23,470 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 11:50:24,970 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:50:27,453 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112626T36de58e5b44c43fe6550a7c4f267d833b26f5aa6ca49d95578c7e956a38ac5d6&bds_s=feda6d4a37a9494d9f2c4726a3bfa86e&bds_cq=&qsr=en_US&t=device&abp=1&with_date=m&language=english&abd=0&abe=0&qadf=moderate&segment=startpage.udog&sc=2sbbv9IndheVBz2D37PSd7fehNcdHD7LkBDis6jupaYc5FDICLl4wy4jxCETDO6As8GUtejfnMXz6m4tt61QzZCBKiS2lMHr&lui=english&query=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:50:27,758 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:50:28,509 - primp - INFO - response: https://search.yahoo.com/search;_ylt=oRr2MGjncilvgBsHs4y_EvIC;_ylu=DGxdpfssW5e51QjjAqtZVp_lpcr1GzigGbGAx71Js_rUKuU?p=site%3Alinkedin.com%2Fjobs%2Fview+%22Quantity+Surveyor%22+%22UK%22&btf=m 200
+2026-07-15 11:50:28,902 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 11:50:28,923 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "Quantity Surveyor" "UK" [timelimit='m' applied]
+2026-07-15 11:50:29,444 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:50:30,335 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:50:31,349 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 11:50:32,874 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=3972371 200
+2026-07-15 11:50:33,958 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 11:50:35,151 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112635T9a9e2f1b0b620c232126e4b8f4cc452ab8cb2dac1d80f7e1140100e6febbf27c&bds_s=ef2d0fd2ff464bb992512c96bbec3158&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=pb8SDxdwHxuh134YAgCvLXiCLGmPsXcsSn242jcjeVtdC3WNT5igjH6YA3twBJEEb2ciG554dglqEvLe3j&cmd=gen_page 200
+2026-07-15 11:50:38,925 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112635T9a9e2f1b0b620c232126e4b8f4cc452ab8cb2dac1d80f7e1140100e6febbf27c&bds_s=477d24e992db41b8842c3e58e7dc4a96&bds_cq=&segment=organic&qadf=moderate&t=device&qsr=en_US&abd=0&sc=&abp=1&with_date=m&lui=english&language=english&abe=0&query=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:50:39,584 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:50:39,851 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 11:50:40,746 - primp - INFO - response: https://search.yahoo.com/search;_ylt=77bBRHlOjV7oq5lOHjVgMbPT;_ylu=krCnevgNOboMKXM72gfq1H476rXzeFbhKt265ZUR1UMxxdw?p=site%3Auk.indeed.com%2Fviewjob+%22Quantity+Surveyor%22+%22UK%22&btf=m 200
+2026-07-15 11:50:42,142 - utils.ddg_search - INFO - DuckDuckGo discovered 4 URLs for uk.indeed.com/viewjob
+2026-07-15 11:50:42,160 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "Quantity Surveyor" "UK" [timelimit='m' applied]
+2026-07-15 11:50:42,779 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22Quantity%20Surveyor%22%20%22UK%22 200
+2026-07-15 11:50:42,806 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&limit=1 200
+2026-07-15 11:50:43,544 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22 403
+2026-07-15 11:50:44,738 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 11:50:49,881 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784112648T4a61bda8b629292bb1368b4c2fccf319bd7894b19ca6f4b13f98478ae4c4c5d6&bds_s=030fa0af98424cfda39c130e33bc8581&bds_cq=&language=english&abp=1&with_date=m&t=device&abd=0&sc=FQvBsxDPa30DxOLaVPl6e4OdgioPNdIdZrMNFR4T1Y1pHfg7VBaQwKH5dSEZS2ALU1co6ASwb8DpEwXMpjHuUVE9KYWZC7ZZal&qsr=en_US&lui=english&segment=startpage.udog&qadf=moderate&abe=0&query=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 11:50:51,914 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&web=1&searchid=6079531 200
+2026-07-15 11:50:55,411 - primp - INFO - response: https://search.yahoo.com/search;_ylt=3sRA523KGOAufi79kxoKyEKN;_ylu=8DeVl1eQUkKUSCPJPQxRJm3LGNlhrkEXuOPLXMb-qd3MnNA?p=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&btf=m 200
+2026-07-15 11:50:58,790 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 11:50:59,638 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22Quantity+Surveyor%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 11:51:00,020 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 11:51:15,959 - utils.llm - INFO - Generating LLM match reasons for 6 jobs via DeepSeek...
+2026-07-15 11:51:16,361 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 11:51:19,068 - utils.llm - INFO - Successfully mapped LLM generated match reasons and percentages.
+2026-07-15 12:05:54,178 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 12:26:37,844 - utils.llm - INFO - Generating AI title expansions for 'estimator' in 'construction' via DeepSeek...
+2026-07-15 12:26:38,820 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 12:26:39,650 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 12:26:39,968 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "estimator " "UK" [timelimit='m' applied]
+2026-07-15 12:26:41,047 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22estimator%20%22%20%22UK%22 200
+2026-07-15 12:26:41,770 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22&limit=1 200
+2026-07-15 12:26:42,332 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:26:43,209 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:26:44,214 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784114804T5fc4c3c65a8c179181fec5593f585f611c77694b0554dafab874cc6c6902b9a1&bds_s=7f901b79f70e4729b071b7285a47ecbb&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=pb8SDxdwGiH0iocrgvgUmnqEQyFz77OqSyDY8PcztkatM7fpO85lDMk9Lr6jwaNpcN8UtmQUq8UZPXDHLn&cmd=gen_page 200
+2026-07-15 12:26:45,383 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784114804T5fc4c3c65a8c179181fec5593f585f611c77694b0554dafab874cc6c6902b9a1&bds_s=7a6d593ecb8e4b738266332575cae723&bds_cq=&qsr=en_US&qadf=moderate&language=english&abe=0&lui=english&sc=&segment=organic&abp=1&with_date=m&t=device&abd=0&query=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:26:46,848 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22&web=1&searchid=5557124 200
+2026-07-15 12:26:47,458 - primp - INFO - response: https://search.yahoo.com/search;_ylt=P_CZLAtlpHQ3sY_kfwHC9N1p;_ylu=iITLWGSYrh5usXXxY-ZrZVShz4IAmPFhGw7cDSGDGlax2NI?p=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22&btf=m 200
+2026-07-15 12:26:48,772 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator+%22+%22UK%22 403
+2026-07-15 12:26:49,121 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:26:49,124 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for linkedin.com/jobs/view
+2026-07-15 12:26:49,137 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "estimator " "UK" [timelimit='m' applied]
+2026-07-15 12:26:49,647 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22&limit=1 200
+2026-07-15 12:26:49,850 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22estimator%20%22%20%22UK%22 200
+2026-07-15 12:26:50,317 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:26:52,607 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:26:53,607 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22 403
+2026-07-15 12:26:54,259 - primp - INFO - response: https://search.yahoo.com/search;_ylt=85dgDhDTffG3GAJpiTQ5lrME;_ylu=X94uDTRdpG5W8Utk-Tg1EyrYtB6oWyrEjoUPF19AjWPgotc?p=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22&btf=m 200
+2026-07-15 12:26:55,483 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 12:26:56,483 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784114816Td5bed33cbb82b79ab83b8b534c63a780d3633698051fb46569b261c81aa378c9&bds_s=d5576457acca4310949a198b2011a2e7&bds_cq=&qadf=moderate&lui=english&with_date=m&abd=0&language=english&t=device&sc=2sbbv9IndFkLghDtVO7PzEl7aFJseYRkzmJE32QTpxuZZejpYCbw9VxxUOjDhk8DhX8ALjlZVeuahaNIVZcHu0SzRVlsP80l&segment=startpage.udog&qsr=en_US&abe=0&abp=1&query=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:26:57,779 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22estimator+%22+%22UK%22&web=1&searchid=3294214 200
+2026-07-15 12:26:58,149 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:26:58,213 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for uk.indeed.com/viewjob
+2026-07-15 12:26:58,224 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "estimator " "UK" [timelimit='m' applied]
+2026-07-15 12:26:58,848 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22estimator+%22+%22UK%22&limit=1 200
+2026-07-15 12:26:58,932 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22estimator%20%22%20%22UK%22 200
+2026-07-15 12:26:59,644 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator+%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:27:00,592 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 12:27:01,745 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784114821T3f9573a09190f93d68df40e0251ec53f1fc0199e9d9772f5f54667bd2cf9c0cb&bds_s=65b2b9a17685498a85ac326d49813878&bds_cq=&qadf=moderate&segment=startpage.udog&abe=0&qsr=en_US&t=device&lui=english&abd=0&abp=1&sc=a8mbuE7dQjhPCcTdrcz1PPu4vERTjd6V4cp9oAjPVfpXp2E6MC0MWaPxQ2pC9owpXKvQ2Nz20EgAJCtXvrTpxw49BLFF6ipM9&with_date=m&language=english&query=site%3Acv-library.co.uk%2Fjob+%22estimator+%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:27:02,234 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator+%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:27:02,676 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:27:03,947 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22estimator+%22+%22UK%22&web=1&searchid=6774288 200
+2026-07-15 12:27:04,614 - primp - INFO - response: https://search.yahoo.com/search;_ylt=EG8ofnNP_aPILtpsfaGshi5R;_ylu=8KaIZxQWe-CFGRgoyQ9CXN97F_dRvQHs-osko_KzFJfSe2M?p=site%3Acv-library.co.uk%2Fjob+%22estimator+%22+%22UK%22&btf=m 200
+2026-07-15 12:27:05,018 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 12:34:17,509 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 12:37:59,649 - utils.llm - INFO - Generating AI title expansions for 'estimator' in 'construction' via DeepSeek...
+2026-07-15 12:38:00,560 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 12:38:01,328 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 12:38:01,639 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "estimator" "UK" [timelimit='m' applied]
+2026-07-15 12:38:02,604 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22estimator%22%20%22UK%22 200
+2026-07-15 12:38:04,413 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&limit=1 200
+2026-07-15 12:38:05,579 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&web=1&searchid=1571427 200
+2026-07-15 12:38:06,310 - primp - INFO - response: https://search.yahoo.com/search;_ylt=KJQyxSIvRHKKgw9wzNwIozc-;_ylu=8_i53ENXYghwhg5_9e8Be9yiTPRK35m5Ctz4Ddesw_WddRQ?p=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&btf=m 200
+2026-07-15 12:38:06,765 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 12:38:06,774 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "estimator" "UK" [timelimit='m' applied]
+2026-07-15 12:38:07,508 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22estimator%22%20%22UK%22 200
+2026-07-15 12:38:08,102 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&limit=1 200
+2026-07-15 12:38:09,487 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&web=1&searchid=6303876 200
+2026-07-15 12:38:10,482 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:38:11,234 - primp - INFO - response: https://search.yahoo.com/search;_ylt=htX5yWq-fraA9bpo806atdf9;_ylu=i7DL1oJUhSGSwRkwNbj5jMryVPg31V5QIa3h8CLeFnRiPfI?p=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&btf=m 200
+2026-07-15 12:38:11,816 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:38:12,513 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22 403
+2026-07-15 12:38:13,440 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784115493T1577d38caa9939baa3b02396de4d7eb6d395a7c291246ef29a332804db0e4f74&bds_s=a9b04e22b2e942d0b0a50677a77b8ab9&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=665xzJlch3PGp6X0yVACTA5dRz96dkRr5AUqH1FivCjGsf1DVWua4EslgT9gi0oR9AuVfcTRl8XvUyvE1&cmd=gen_page 200
+2026-07-15 12:38:14,416 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784115494Ta00925ab54cbd413afc0caf834c2a21384b1b845828e8082252953113dbeaa25&bds_s=ebba24c04fb24e70a14bdf541a0a9063&bds_cq=&with_date=m&sc=&qsr=en_US&abe=0&lui=english&t=device&segment=organic&qadf=moderate&abd=0&language=english&abp=1&query=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:38:14,869 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:38:14,955 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for uk.indeed.com/viewjob
+2026-07-15 12:38:14,962 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "estimator" "UK" [timelimit='m' applied]
+2026-07-15 12:38:15,662 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22estimator%22%20%22UK%22 200
+2026-07-15 12:38:16,289 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&limit=1 200
+2026-07-15 12:38:17,664 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&web=1&searchid=7363476 200
+2026-07-15 12:38:18,338 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22 403
+2026-07-15 12:38:18,633 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:38:19,254 - primp - INFO - response: https://search.yahoo.com/search;_ylt=vlph2BJi0HANLHmMzvFzkG0U;_ylu=G43ONbUjQQXC9SLBA3XTe1-rjN9cJ7G0XyTOOUfPoHlvA4g?p=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&btf=m 200
+2026-07-15 12:38:20,546 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:38:21,655 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 12:38:22,898 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784115502T726727342009180f7599f3a36922c11bbb54734406bad02fa0604eee7bd13cef&bds_s=874672ff39584c5a8fc084cee52c530c&bds_cq=&segment=startpage.udog&abp=1&t=device&with_date=m&qadf=moderate&abe=0&lui=english&sc=2sbbv9IndJ2aaG225qythUXzESVXnha2m934zwxoDjNahCLTQd2D7MGpSk2dVh9wDp2B4uZPHO4M5yKRNndCdOwy0tu5tnxX&language=english&qsr=en_US&abd=0&query=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:38:23,443 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:38:23,513 - utils.ddg_search - ERROR - DuckDuckGo search failed for query 'site:cv-library.co.uk/job "estimator" "UK"': No results found.
+2026-07-15 12:38:23,531 - api.routes - ERROR - LinkedIn scraper error: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,531 - api.routes - ERROR - Indeed scraper error: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,534 - api.routes - ERROR - CV-Library scraper error: Browser.new_context: Connection closed while reading from the driver
+2026-07-15 12:38:23,534 - utils.llm - INFO - Skipping LLM match reason generation (no API key or no jobs).
+2026-07-15 12:38:23,639 - asyncio - WARNING - socket.send() raised exception.
+2026-07-15 12:38:23,897 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=BrokenPipeError(32, 'The pipe is being closed', None, 232, None)>
+Traceback (most recent call last):
+  File "C:\Users\tusha\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 401, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+  File "C:\Users\tusha\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 548, in send
+    ov.WriteFile(conn.fileno(), buf)
+BrokenPipeError: [WinError 232] The pipe is being closed
+2026-07-15 12:38:29,082 - utils.logging_setup - INFO - Logging configured successfully.
+2026-07-15 12:38:34,170 - utils.llm - INFO - Generating AI title expansions for 'estimator' in 'construction' via DeepSeek...
+2026-07-15 12:38:35,032 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-07-15 12:38:35,831 - utils.llm - INFO - Successfully generated 8 AI title expansions.
+2026-07-15 12:38:36,156 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:linkedin.com/jobs/view "estimator" "UK" [timelimit='m' applied]
+2026-07-15 12:38:36,918 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&limit=1 200
+2026-07-15 12:38:37,043 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Alinkedin.com/jobs/view%20%22estimator%22%20%22UK%22 200
+2026-07-15 12:38:37,363 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:38:37,849 - primp - INFO - response: https://www.google.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:38:38,435 - primp - INFO - response: https://search.brave.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:38:39,143 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22 403
+2026-07-15 12:38:40,282 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&web=1&searchid=1811969 200
+2026-07-15 12:38:40,957 - primp - INFO - response: https://search.yahoo.com/search;_ylt=ROEECsi0ZL4bDf0snnqjxy3G;_ylu=sBL2KpckQslFQ6OZ4vud3RIwQuqVdv89wvW_cq5juCdKU2Q?p=site%3Alinkedin.com%2Fjobs%2Fview+%22estimator%22+%22UK%22&btf=m 200
+2026-07-15 12:38:41,215 - utils.ddg_search - INFO - DuckDuckGo discovered 8 URLs for linkedin.com/jobs/view
+2026-07-15 12:38:41,224 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:uk.indeed.com/viewjob "estimator" "UK" [timelimit='m' applied]
+2026-07-15 12:38:41,630 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Auk.indeed.com/viewjob%20%22estimator%22%20%22UK%22 200
+2026-07-15 12:38:41,831 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&limit=1 200
+2026-07-15 12:38:42,465 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22 403
+2026-07-15 12:38:44,201 - primp - INFO - response: https://www.google.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:38:45,406 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&web=1&searchid=1385102 200
+2026-07-15 12:38:45,973 - primp - INFO - response: https://search.yahoo.com/search;_ylt=On8R4qCi4UyxRv-0532aQtsF;_ylu=arUgFuqJhaNX8JmPL0ttzRCneDzpIiEzatOBBmCwppgYp-U?p=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&btf=m 200
+2026-07-15 12:38:46,490 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:38:46,954 - primp - INFO - response: https://search.brave.com/search?q=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:38:48,031 - primp - INFO - response: https://www.startpage.com/ 200
+2026-07-15 12:38:49,027 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784115528T9be852e44e28c06890a5af8825895d5ca21b0a142eab8031240fc2878f4a474f&bds_s=1c0e1e13bdae4976812a38d82e21ed53&bds_cq=&language=english&segment=startpage.udog&qsr=en_US&abp=1&with_date=m&lui=english&abd=0&sc=FQvBsxDP9YRIahoLOElPiT5Gtocdc3FzdD5GYBfxGMUmaA1kpZQ9kprEpIzzRmrxQKXfxLPwGstB0Sz4GWlFLYYVW1bfLhPZff&qadf=moderate&abe=0&t=device&query=site%3Auk.indeed.com%2Fviewjob+%22estimator%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:38:49,030 - utils.ddg_search - INFO - DuckDuckGo discovered 6 URLs for uk.indeed.com/viewjob
+2026-07-15 12:38:49,042 - utils.ddg_search - INFO - Querying DuckDuckGo for: site:cv-library.co.uk/job "estimator" "UK" [timelimit='m' applied]
+2026-07-15 12:38:49,667 - primp - INFO - response: https://grokipedia.com/api/typeahead?query=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&limit=1 200
+2026-07-15 12:38:49,757 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Acv-library.co.uk/job%20%22estimator%22%20%22UK%22 200
+2026-07-15 12:38:50,053 - httpx - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 202 Accepted"
+2026-07-15 12:38:50,534 - primp - INFO - response: https://search.brave.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&source=web&tf=pm 429
+2026-07-15 12:38:51,226 - primp - INFO - response: https://www.mojeek.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22 403
+2026-07-15 12:38:51,773 - primp - INFO - response: https://www.google.com/search?q=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS&tbs=qdr%3Am 200
+2026-07-15 12:38:52,845 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&web=1&searchid=3184345 200
+2026-07-15 12:38:53,823 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784115533Tc975fcd057c9c4fd5944feb5be71215a7e253fd85b25fda9c348be927e2e6925&bds_s=5168b84237fe4ba1bd0e1d6bd899441c&bds_cq=&language=english&lui=english&segment=startpage.opera&t=device&cat=web&sc=pb8SDxdwHoNxZW8QzslOL2lgdhZWtjDjR3r6blpb0bf5mVhEycrlCTL6Kl2Xsv84nd84xWGx54ZvsnSUtn&cmd=gen_page 200
+2026-07-15 12:38:54,972 - primp - INFO - response: https://www.startpage.com/sp/captcha/?bc=IN&bi=Jio&be=8ec277867e08399dc5053bbb46260602&bds_t=1784115534T8b022f3bfa60bf254860370ff9807d6e3db32fc6877ce59e08168272db61a2f7&bds_s=544a176760174e5abdfafa4171ab1278&bds_cq=&abp=1&abe=0&abd=0&qadf=moderate&segment=organic&lui=english&qsr=en_US&sc=&language=english&t=device&with_date=m&query=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&cat=web&cmd=gen_page 200
+2026-07-15 12:38:55,959 - primp - INFO - response: https://search.yahoo.com/search;_ylt=AybwH5_krgXbVNQ6F4WdCrm9;_ylu=wlnLa-PUnKed5yvaSWSlVzmRzbMe2kiyk76aP_2XJ65JxdA?p=site%3Acv-library.co.uk%2Fjob+%22estimator%22+%22UK%22&btf=m 200
+2026-07-15 12:38:56,167 - utils.ddg_search - INFO - DuckDuckGo discovered 7 URLs for cv-library.co.uk/job
+2026-07-15 12:39:09,574 - utils.llm - INFO - Generating LLM match reasons for 4 jobs via DeepSeek...
+2026-07-15 12:39:09,927 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
