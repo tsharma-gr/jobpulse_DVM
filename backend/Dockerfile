@@ -1,25 +1,17 @@
-FROM python:3.10-slim
+FROM mcr.microsoft.com/playwright/python:v1.44.0-jammy
 
 WORKDIR /app
-
-# Install system dependencies needed for Playwright Chromium
-RUN apt-get update && apt-get install -y \
-    wget \
-    gnupg \
-    && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright browsers and system dependencies
-RUN playwright install chromium
-RUN playwright install-deps chromium
-
 COPY . .
 
-EXPOSE 8000
-
-ENV DEMO_MODE=true
+# Set environment variables for Render
+ENV PORT=10000
 ENV HEADLESS=true
+ENV DEMO_MODE=false
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+EXPOSE 10000
+
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port $PORT"]
