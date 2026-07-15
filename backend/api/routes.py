@@ -176,7 +176,7 @@ async def run_search_pipeline(job_title: str, industry: str, location: str, radi
         
         # Check if the page was actually blocked by Cloudflare or a Login wall
         blocked_keywords = ["blocked", "additional verification required", "join linkedin", "security measure", "captcha"]
-        if any(b in title_lower for b in blocked_keywords) or job.company_name.lower() == "unknown":
+        if any(b in title_lower for b in blocked_keywords):
             logger.info(f"Filtered out blocked/failed scrape job: {job.job_title}")
             continue
             
