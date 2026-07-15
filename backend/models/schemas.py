@@ -17,6 +17,7 @@ class JobItem(BaseModel):
     job_type: Optional[str] = "Permanent"
     job_url: str
     match_reason: str
+    job_description: Optional[str] = ""
 
 class SearchResponse(BaseModel):
     jobs: List[JobItem]

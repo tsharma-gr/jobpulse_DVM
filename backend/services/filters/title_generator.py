@@ -9,50 +9,41 @@ logger = logging.getLogger(__name__)
 def generate_related_titles(job_title: str, industry: str = "") -> List[str]:
     """
     Expands a job title to include common variations.
-    Loads variations dynamically from data/titles.json, falling back to rule-based generation.
+    Supports logical 'OR' operators to split composite queries.
     """
+    import re
     cleaned_title = job_title.strip()
     if not cleaned_title:
         return []
 
-    # 1. Try DeepSeek AI first (if API key is present)
+    # Parse OR query into individual titles
+    parts = re.split(r'\s+or\s+', cleaned_title, flags=re.IGNORECASE)
+    parsed_titles = [p.strip().strip('"').strip("'").strip() for p in parts if p.strip()]
+    
+    variations = []
+    prefixes = ["Senior", "Junior", "Lead", "Assistant", "Associate", "Graduate", "Trainee", "Pre"]
+    
+    for pt in parsed_titles:
+        variations.append(pt)
+        pt_lower = pt.lower()
+        for prefix in prefixes:
+            # Avoid prefixing if it already starts with it
+            if not pt_lower.startswith(prefix.lower()):
+                variations.append(f"{prefix} {pt}")
+
+    # Try DeepSeek AI first (if API key is present) for the full query
     if industry:
         ai_titles = generate_ai_title_expansions(cleaned_title, industry)
         if ai_titles and len(ai_titles) > 0:
-            return ai_titles
+            variations.extend(ai_titles)
 
-    # Try loading from titles.json
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(current_dir, "..", "..", "data", "titles.json")
-    
-    exact_maps = {}
-    try:
-        if os.path.exists(config_path):
-            with open(config_path, "r", encoding="utf-8") as f:
-                exact_maps = json.load(f)
-        else:
-            logger.warning(f"Titles expansion config not found at {config_path}")
-    except Exception as e:
-        logger.error(f"Error loading titles config: {e}")
+    # Deduplicate while preserving case
+    seen = set()
+    result = []
+    for var in variations:
+        var_low = var.lower()
+        if var_low not in seen:
+            seen.add(var_low)
+            result.append(var)
 
-    # Standardize lookup key
-    lower_title = cleaned_title.lower()
-    
-    # Try finding exact matching list or key contains match
-    for key, variations in exact_maps.items():
-        if lower_title == key.lower():
-            return variations
-
-    # Rule-based fallback expansion if no match found in config
-    variations = [cleaned_title]
-    prefixes = ["Senior", "Junior", "Lead", "Assistant", "Associate", "Graduate", "Trainee"]
-    suffixes = ["Manager", "Specialist", "Engineer", "Analyst"]
-
-    for prefix in prefixes:
-        variations.append(f"{prefix} {cleaned_title}")
-    
-    for suffix in suffixes:
-        if suffix.lower() not in lower_title:
-            variations.append(f"{cleaned_title} {suffix}")
-
-    return list(dict.fromkeys(variations))
+    return result

@@ -259,6 +259,7 @@ async def search_endpoint(request: SearchRequest):
             
             # Send final results
             logger.info(f"Sending completed step with {len(jobs)} jobs to the frontend.")
+            
             yield json.dumps({
                 "step": "completed",
                 "message": "Search completed.",

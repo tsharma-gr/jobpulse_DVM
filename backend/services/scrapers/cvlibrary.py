@@ -48,13 +48,21 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
                     location_el = await page.query_selector(".job__location, .job__meta-location")
                     time_el = await page.query_selector(".job__posted, .job__meta-posted")
                     type_el = await page.query_selector(".job__type, .job__meta-type")
+                    desc_el = await page.query_selector("[itemprop='description'], .job__description, .job-description")
                     
                     title = (await title_el.inner_text()).strip() if title_el else ""
                     company = (await company_el.inner_text()).strip() if company_el else "Unknown"
                     loc = (await location_el.inner_text()).strip() if location_el else location
                     posted = (await time_el.inner_text()).strip() if time_el else "Recent"
                     job_type = (await type_el.inner_text()).strip() if type_el else "Permanent"
+                    description = (await desc_el.inner_text()).strip() if desc_el else ""
                     
+                    # Filter out blocked pages or generic landing pages
+                    title_lower = title.lower()
+                    if not title or title_lower == "blocked":
+                        logger.warning(f"Discarding CV-Library blocked/invalid page: {url} (Title: {title}, Company: {company})")
+                        continue
+                        
                     if title:
                         logger.info(f"Extracted CV-Library Job: '{title}' at '{company}' (Date: {posted})")
                         jobs.append(JobItem(
@@ -66,7 +74,8 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
                             industry_match=True,
                             job_type=job_type,
                             job_url=url,
-                            match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}."
+                            match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}.",
+                            job_description=description
                         ))
                 except Exception as e:
                     logger.error(f"Error scraping individual CV-Library page {url}: {e}")
@@ -86,7 +95,13 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
     page = None
     try:
         page = await BrowserManager.new_page()
-        query = urllib.parse.quote(job_title)
+        import re
+        if " or " in job_title.lower():
+            parts = re.split(r'\s+or\s+', job_title, flags=re.IGNORECASE)
+            simplified = " OR ".join([p.strip() for p in parts if p.strip()][:4])
+        else:
+            simplified = job_title
+        query = urllib.parse.quote(simplified)
         loc_query = urllib.parse.quote(location)
         url = f"https://www.cv-library.co.uk/search-jobs?q={query}&l={loc_query}&r={radius}&posted=90"
         
@@ -114,7 +129,8 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
 
         job_cards = await page.query_selector_all(job_selector)
         
-        for card in job_cards[:10]:
+        cards_data = []
+        for card in job_cards[:8]:
             try:
                 title_el = await card.query_selector(".job__title a, h2 a, h3 a")
                 company_el = await card.query_selector(".job__company, .job__company-link")
@@ -135,20 +151,62 @@ async def scrape_cvlibrary(job_title: str, industry: str, location: str, radius:
                         link = f"https://www.cv-library.co.uk{href}" if href.startswith("/") else href
 
                 if title and link:
-                    jobs.append(JobItem(
-                        job_title=title,
-                        company_name=company,
-                        job_website="CV-Library",
-                        location=loc,
-                        date_posted=posted,
-                        industry_match=True,
-                        job_type=job_type,
-                        job_url=link,
-                        match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}."
-                    ))
+                    cards_data.append({
+                        "title": title,
+                        "company": company,
+                        "location": loc,
+                        "posted": posted,
+                        "job_type": job_type,
+                        "link": link
+                    })
             except Exception as e:
-                logger.error(f"Error parsing CV-Library card in fallback search: {e}")
+                logger.error(f"Error parsing CV-Library card metadata in fallback search: {e}")
                 continue
+                
+        # Now visit each link to scrape description
+        for data in cards_data:
+            try:
+                logger.info(f"Navigating to fallback CV-Library page: {data['link']}")
+                await page.goto(data["link"], wait_until="domcontentloaded", timeout=15000)
+                
+                title_el = await page.query_selector("h1")
+                title = (await title_el.inner_text()).strip() if title_el else data["title"]
+                
+                title_lower = title.lower()
+                if title_lower == "blocked":
+                    logger.warning(f"Discarding fallback CV-Library blocked/invalid page: {data['link']} (Title: {title})")
+                    continue
+                
+                desc_el = await page.query_selector("[itemprop='description'], .job__description, .job-description")
+                description = (await desc_el.inner_text()).strip() if desc_el else ""
+                
+                jobs.append(JobItem(
+                    job_title=title,
+                    company_name=data["company"],
+                    job_website="CV-Library",
+                    location=data["location"],
+                    date_posted=data["posted"],
+                    industry_match=True,
+                    job_type=data["job_type"],
+                    job_url=data["link"],
+                    match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}.",
+                    job_description=description
+                ))
+            except Exception as e:
+                logger.error(f"Error scraping description for fallback CV-Library job {data['link']}: {e}")
+                # Append even without description as fallback if not blocked
+                jobs.append(JobItem(
+                    job_title=data["title"],
+                    company_name=data["company"],
+                    job_website="CV-Library",
+                    location=data["location"],
+                    date_posted=data["posted"],
+                    industry_match=True,
+                    job_type=data["job_type"],
+                    job_url=data["link"],
+                    match_reason=f"Title '{data['title']}' is a strong match for the requested '{job_title}' role within {industry}.",
+                    job_description=""
+                ))
                 
     except Exception as e:
         logger.error(f"CV-Library fallback search failed: {str(e)}")

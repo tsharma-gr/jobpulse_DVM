@@ -46,12 +46,20 @@ async def scrape_linkedin(job_title: str, industry: str, location: str, radius: 
                     company_el = await page.query_selector(".topcard__org-name-link, .top-card-layout__subcard a, .top-card-layout__org-name-link")
                     location_el = await page.query_selector(".topcard__flavor--bullet, .topcard__flavor--metadata, .top-card-layout__first-subcard-item")
                     time_el = await page.query_selector(".posted-time-ago__text, .topcard__flavor--metadata")
+                    desc_el = await page.query_selector(".show-more-less-html__markup, .description__text, #job-details, .jobs-description")
                     
                     title = (await title_el.inner_text()).strip() if title_el else ""
                     company = (await company_el.inner_text()).strip() if company_el else "Unknown"
                     loc = (await location_el.inner_text()).strip() if location_el else location
                     posted = (await time_el.inner_text()).strip() if time_el else "Recent"
+                    description = (await desc_el.inner_text()).strip() if desc_el else ""
                     
+                    # Filter out redirected authwall or generic search landing pages
+                    title_lower = title.lower()
+                    if not title or "join linkedin" in title_lower or "jobs in " in title_lower:
+                        logger.warning(f"Discarding LinkedIn redirected authwall/landing page: {url} (Title: {title}, Company: {company})")
+                        continue
+                        
                     if title:
                         logger.info(f"Extracted LinkedIn Job: '{title}' at '{company}' (Date: {posted})")
                         jobs.append(JobItem(
@@ -63,7 +71,8 @@ async def scrape_linkedin(job_title: str, industry: str, location: str, radius: 
                             industry_match=True,
                             job_type="Permanent",
                             job_url=url,
-                            match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}."
+                            match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}.",
+                            job_description=description
                         ))
                 except Exception as e:
                     if "Execution context was destroyed" in str(e):
@@ -109,7 +118,8 @@ async def scrape_linkedin(job_title: str, industry: str, location: str, radius: 
 
         job_cards = await page.query_selector_all(".jobs-search__results-list li")
         
-        for card in job_cards[:10]:
+        cards_data = []
+        for card in job_cards[:8]:
             try:
                 title_el = await card.query_selector(".base-search-card__title")
                 company_el = await card.query_selector(".base-search-card__subtitle")
@@ -124,20 +134,61 @@ async def scrape_linkedin(job_title: str, industry: str, location: str, radius: 
                 posted = (await time_el.inner_text()).strip() if time_el else "Recent"
                 
                 if title and link:
-                    jobs.append(JobItem(
-                        job_title=title,
-                        company_name=company,
-                        job_website="LinkedIn",
-                        location=loc,
-                        date_posted=posted,
-                        industry_match=True,
-                        job_type="Permanent",
-                        job_url=link,
-                        match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}."
-                    ))
+                    cards_data.append({
+                        "title": title,
+                        "company": company,
+                        "location": loc,
+                        "link": link,
+                        "posted": posted
+                    })
             except Exception as e:
-                logger.error(f"Error parsing LinkedIn card in fallback search: {e}")
+                logger.error(f"Error parsing LinkedIn card metadata in fallback search: {e}")
                 continue
+                
+        # Now visit each link to scrape description
+        for data in cards_data:
+            try:
+                logger.info(f"Navigating to fallback LinkedIn page: {data['link']}")
+                await page.goto(data["link"], wait_until="domcontentloaded", timeout=15000)
+                
+                title_el = await page.query_selector("h1, .topcard__title, .top-card-layout__title")
+                title = (await title_el.inner_text()).strip() if title_el else data["title"]
+                
+                title_lower = title.lower()
+                if "join linkedin" in title_lower or "jobs in " in title_lower:
+                    logger.warning(f"Discarding fallback LinkedIn redirected authwall/landing page: {data['link']} (Title: {title})")
+                    continue
+                
+                desc_el = await page.query_selector(".show-more-less-html__markup, .description__text, #job-details, .jobs-description")
+                description = (await desc_el.inner_text()).strip() if desc_el else ""
+                
+                jobs.append(JobItem(
+                    job_title=title,
+                    company_name=data["company"],
+                    job_website="LinkedIn",
+                    location=data["location"],
+                    date_posted=data["posted"],
+                    industry_match=True,
+                    job_type="Permanent",
+                    job_url=data["link"],
+                    match_reason=f"Title '{title}' is a strong match for the requested '{job_title}' role within {industry}.",
+                    job_description=description
+                ))
+            except Exception as e:
+                logger.error(f"Error scraping description for fallback LinkedIn job {data['link']}: {e}")
+                # Append even without description as fallback if title is not an authwall
+                jobs.append(JobItem(
+                    job_title=data["title"],
+                    company_name=data["company"],
+                    job_website="LinkedIn",
+                    location=data["location"],
+                    date_posted=data["posted"],
+                    industry_match=True,
+                    job_type="Permanent",
+                    job_url=data["link"],
+                    match_reason=f"Title '{data['title']}' is a strong match for the requested '{job_title}' role within {industry}.",
+                    job_description=""
+                ))
                 
     except Exception as e:
         logger.error(f"LinkedIn fallback search failed: {str(e)}")

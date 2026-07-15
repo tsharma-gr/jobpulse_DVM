@@ -80,7 +80,8 @@ def generate_mock_jobs(job_title: str, industry: str, location: str, website: st
             industry_match=True,
             job_type=job_type,
             job_url=url,
-            match_reason=f"Matches title '{title}' and location '{location}' within {industry}."
+            match_reason=f"Matches title '{title}' and location '{location}' within {industry}.",
+            job_description=f"We are looking for a {title} with expertise in the {industry} sector. The responsibilities of this role include managing project demands, collaborating with teams, and executing key deliverables within {industry}."
         ))
 
     return jobs
